@@ -1,0 +1,22 @@
+{
+  "25pct": {
+    "train_records": 336,
+    "val_records": 40,
+    "ood_records": 164
+  },
+  "50pct": {
+    "train_records": 612,
+    "val_records": 120,
+    "ood_records": 164
+  },
+  "75pct": {
+    "train_records": 1032,
+    "val_records": 96,
+    "ood_records": 164
+  },
+  "100pct": {
+    "train_records": 1300,
+    "val_records": 160,
+    "ood_records": 164
+  }
+}

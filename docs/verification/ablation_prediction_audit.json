@@ -1,0 +1,61 @@
+[
+  {
+    "fraction": 25,
+    "artifact": "base",
+    "mae": 0.2019017367524769,
+    "rows": 41,
+    "matching_variants": [
+      "base"
+    ]
+  },
+  {
+    "fraction": 25,
+    "artifact": "retained_correction",
+    "mae": 0.2068884150701532,
+    "rows": 41,
+    "matching_variants": [
+      "no_gate"
+    ]
+  },
+  {
+    "fraction": 50,
+    "artifact": "base",
+    "mae": 0.23472809782533247,
+    "rows": 41,
+    "matching_variants": [
+      "base"
+    ]
+  },
+  {
+    "fraction": 75,
+    "artifact": "base",
+    "mae": 0.14118896544380324,
+    "rows": 41,
+    "matching_variants": [
+      "base"
+    ]
+  },
+  {
+    "fraction": 75,
+    "artifact": "retained_correction",
+    "mae": 0.12986995498382956,
+    "rows": 41,
+    "matching_variants": []
+  },
+  {
+    "fraction": 100,
+    "artifact": "base",
+    "mae": 0.15595816148260278,
+    "rows": 41,
+    "matching_variants": [
+      "base"
+    ]
+  },
+  {
+    "fraction": 100,
+    "artifact": "retained_correction",
+    "mae": 0.13961014622234016,
+    "rows": 41,
+    "matching_variants": []
+  }
+]

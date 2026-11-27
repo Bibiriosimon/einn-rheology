@@ -1,0 +1,18 @@
+{
+  "krepc_cached_det_full": {
+    "rows": 406,
+    "live_provider_responses_in_original": 0
+  },
+  "krepc_cached_ds_flash_full": {
+    "rows": 406,
+    "live_provider_responses_in_original": 403
+  },
+  "krepc_cached_ds_full": {
+    "rows": 406,
+    "live_provider_responses_in_original": 180
+  },
+  "checks": {
+    "query_evidence_summary_sha256": "all match",
+    "llm_calls_in_offline_rebuild": 0
+  }
+}

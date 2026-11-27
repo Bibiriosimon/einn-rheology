@@ -1,40 +1,29 @@
-# EINN · Original manuscript reproducibility archive
+# EINN for polymer nanocomposite rheology
 
-This repository contains research artifacts for *A Language Experience-Informed Neural Network for the Rheological Properties Prediction of Polymer Nanocomposites*. Its experiments predict log₁₀ viscosity from filler volume fraction, reduced temperature and log₁₀ shear rate. Table and figure numbers below refer to the matching author archive.
+EINN predicts steady-shear viscosity from filler volume fraction, reduced temperature and shear rate. The repository accompanies *A Language Experience-Informed Neural Network for the Rheological Properties Prediction of Polymer Nanocomposites*.
 
-## Reproduce the archived results
+## Start here
 
-Use Python 3.12. The Mac CPU dependency snapshot is in [environment/requirements-macos-cpu.lock](environment/requirements-macos-cpu.lock). Use four CPU threads and the pinned environment for checkpoint comparisons. A standard Python installation with compatible PyTorch, Transformers and scientific libraries can run the same scripts.
+Clone the repository and use Python 3.12 in a clean environment. These checks need no weights or API account.
 
-```bash
+```sh
 python -m pip install openpyxl numpy pandas matplotlib
 python scripts/verify_archive.py
 python scripts/render_figures.py reproduction-output
 ```
 
-Run these commands from the repository root. The first script verifies the data checksums, recomputes Table 1 MAEs from held-out sample-level predictions, compares Table 4 with the archived summary, checks Figure 1 predictions and regenerates the four sets of training-derived prior strings. The second draws Figures 1–6 and 8 from their archived input tables. Figures 7 and 9 are conceptual artwork, supplied as PDFs.
+The commands recompute Table 1 from the archived test predictions, check Table 4 against its recorded metrics, and draw Figures 1–6 and 8. Figures 7 and 9 are supplied as artwork. The [406 viscosity observations](data/new_MDdata_406_records.csv), [supporting workbook](data/Supplementary_Data.xlsx), and the [fixed partitions and predictions](runs/benchmark) are included.
 
-## Replay the saved models
+## Weights and training
 
-For these checks, also install PyTorch, Transformers, scikit-learn and tqdm using the tested versions in the environment lock. Torch loads checked model tensors on CPU. The scripts use local assets and do not call language model services.
+The files in [Releases](../../releases) contain the original inference tensors and SciBERT initializer. Each ZIP has an accompanying SHA-256. Start with the [run instructions](docs/reproduce.md) for checkpoint replay, retraining the March benchmark, or reproducing the evidence-based experiments.
 
-```bash
-python scripts/replay_evidence_head.py
-python scripts/replay_checkpoint.py --weights-root PATH_TO_DEPOSIT/benchmark-3.11 --scibert PATH_TO_DEPOSIT/models/scibert_safe
-```
+| Location | Contents |
+|---|---|
+| [src](src) | TransRheo, template-based correction, retrieval-based correction and ablation code |
+| [runs](runs) | Splits, predictions, metrics, scalers, prior templates and frozen evidence features |
+| [figures](figures) | Source data, plotting scripts and reference PDFs |
+| [nemd](nemd) | LAMMPS inputs and stress data for the six-condition reconstruction |
+| [docs/verification](docs/verification) | Recorded checks and reproduction results |
 
-The first command evaluates three KREPC correction heads using the archived numeric base predictions, scalers, bin parameters and frozen pooled encoder features. The second needs the version-matched weights deposit and recomputes the four Table 1 template-correction models on all stored held-out states, starting from the original numerical backbone and using their archived input templates. Neither command fits a new model. The small deposit can be used with the first command without fetching the full weights.
-
-## Find a result
-
-| Artifact | Location | Scope |
-|---|---|---|
-| 406 viscosity observations and supplement | `data/` | Exact source spreadsheet and numeric CSV. Source audit marks coordinate overlap with an earlier file. |
-| Table 1 and training budget | `runs/benchmark/` | Four grouped splits, predictions, logs and prior banks. Training-derived templates are fixed per fold. |
-| Table 4 and additional ablations | `runs/ablation/` | Summary and per-fraction metrics. A complete set of separate variant checkpoints has not been recovered. |
-| 15% and extreme conditions | `runs/benchmark_sparsefractions_run/`, `runs/benchmark_extreme_15_25_50_75_100/` | Archived 15% split, logs and summary results. |
-| KREPC retrieval and correction | `runs/krepc_cached_*/` | Numeric predictions, locators, source flags, scalers, frozen text-encoder features and correction head weights. |
-| Original training and plotting software | `src/`, `figures/` | See the verified entry points above and [run notes](docs/run_notes.md) for the historical training interfaces. |
-| Data lineage | `docs/artifact_provenance.json` | Input filename, transformation, and SHA-256 for each research artifact. |
-
-The 406 observations are the processed inputs used for machine learning. The archived set does not contain a complete per-condition mapping to the original LAMMPS input decks, seed and initial configuration, trajectories, or stress time series. Figure 3a is reconstructed from the archived plotted coordinates. Code is provided with its original behavior and the verification scripts document what has been reproduced. Rights and redistribution are described in [run notes](docs/run_notes.md).
+The 406 training labels are processed viscosity values. See the [simulation record](nemd/README.md) for available parameters and the limits of tracing the historical labels to individual trajectories. See the [notice](NOTICE.md) for software, data and third-party assets.

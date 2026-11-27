@@ -1,0 +1,12 @@
+{
+  "rows": {
+    "prior_conditioned_dataset.csv": 406,
+    "llm_transrheo_training_log.csv": 1,
+    "llm_transrheo_predictions_all_splits.csv": 135,
+    "benchmark_ood_all_models_y.csv": 6,
+    "benchmark_ood_extreme_regimes_y.csv": 30,
+    "all_model_predictions_y.csv": 1081
+  },
+  "identical_tensors": 211,
+  "scope": "25% archived base, full original correction data, one CPU epoch from common initialization"
+}

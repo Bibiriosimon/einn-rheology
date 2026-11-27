@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the EINN manuscript and this version of the code."
+title: "EINN for polymer nanocomposite rheology"
+type: software
+authors:
+  - name: "EINN authors"
+repository-code: "https://github.com/Bibiriosimon/einn-rheology"
+license: MIT
+version: "1.0.0"

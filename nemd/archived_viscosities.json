@@ -1,0 +1,50 @@
+[
+  {
+    "id": "001",
+    "primary_eta": 8.703932733333334,
+    "secondary_total_eta": 8.8601819,
+    "actual_phi": 0.0,
+    "time_se": 0.17235422757132007,
+    "measured_rows": 300
+  },
+  {
+    "id": "002",
+    "primary_eta": 19.43687033333333,
+    "secondary_total_eta": 19.570286000000003,
+    "actual_phi": 0.19799999999999982,
+    "time_se": 0.06761573826755654,
+    "measured_rows": 300
+  },
+  {
+    "id": "003",
+    "primary_eta": 19.673025,
+    "secondary_total_eta": 19.815910333333335,
+    "actual_phi": 0.19799999999999982,
+    "time_se": 0.06299836623445006,
+    "measured_rows": 300
+  },
+  {
+    "id": "004",
+    "primary_eta": 9.707300666666669,
+    "secondary_total_eta": 9.8246115,
+    "actual_phi": 0.19799999999999982,
+    "time_se": 0.07470043465362926,
+    "measured_rows": 60
+  },
+  {
+    "id": "005",
+    "primary_eta": 19.75884,
+    "secondary_total_eta": 19.900388166666666,
+    "actual_phi": 0.19799999999999982,
+    "time_se": 0.11522236658266616,
+    "measured_rows": 600
+  },
+  {
+    "id": "006",
+    "primary_eta": 9.027724433333335,
+    "secondary_total_eta": 9.181963900000001,
+    "actual_phi": 0.17682212724090907,
+    "time_se": 0.02531499540813117,
+    "measured_rows": 300
+  }
+]

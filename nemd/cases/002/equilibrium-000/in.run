@@ -1,0 +1,40 @@
+units lj
+atom_style bond
+read_restart ../../../preparation/nf240/warm.restart
+pair_style lj/expand 2.5
+pair_coeff 1 1 1.0 1.0 0.0 2.5
+pair_coeff 1 2 3.0 1.0 1.5 2.5
+pair_coeff 2 2 1.0 1.0 3.0 1.12
+pair_modify shift yes tail no
+bond_style harmonic
+bond_coeff 1 1000.0 1.0
+special_bonds lj 0.0 1.0 1.0
+neighbor .4 bin
+neigh_modify every 1 delay 0 check yes
+timestep 0.001
+change_box all x final 0 34.374908375283 y final 0 34.374908375283 z final 0 34.374908375283 remap
+velocity all create 1.0 720402 mom yes rot yes dist gaussian
+reset_timestep 0
+group polymer type 1
+compute bonds all bond/local dist
+compute maxbond all reduce max c_bonds inputs local
+compute chunks polymer chunk/atom molecule
+compute rg polymer gyration/chunk chunks
+fix rgout polymer ave/time 100 1 1000 c_rg file equilibrium_rg.txt mode vector
+thermo 1000
+thermo_style custom step temp pe press vol density c_maxbond
+thermo_modify lost error flush yes norm no
+compute et all temp
+compute ep all pe
+compute pr all pressure et
+fix eq_trace all ave/time 100 1 1000 c_et c_ep c_pr c_maxbond file equilibrium_state.txt
+fix ramp all nvt temp 1 0.5 .5
+run 100000
+unfix ramp
+fix hold all nvt temp 0.5 0.5 .5
+run 500000
+unfix hold
+unfix eq_trace
+unfix rgout
+write_restart equilibrium.restart
+write_data equilibrium.data pair ij
