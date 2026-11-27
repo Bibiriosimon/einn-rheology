@@ -249,6 +249,146 @@
     "origin": "paper archive/Figures_Package_Corrected/Figure_9/Figure_9.pdf",
     "sha256": "711ba75c205b872d7daedc76fcb82ed9e94a8833bc55b3301ace08edaedc0719"
   },
+  "nemd/archived_viscosities.json": {
+    "operation": "archived input or derived measurement",
+    "origin": "Li 2023 conditional reconstruction/archived_viscosities.json",
+    "sha256": "832d4dc3e9804cf4bc0c1816337c22b47d525cff83f2297322500dae0370c4ed"
+  },
+  "nemd/cases/001/equilibrium-000/in.run": {
+    "operation": "restart paths made relative",
+    "origin": "Li 2023 conditional reconstruction/cases/001/equilibrium-000/in.run",
+    "sha256": "949e6b9454a778c79006409c9b1651d4afba5e04bd584cd6a6009797800a136f"
+  },
+  "nemd/cases/001/flow/in.run": {
+    "operation": "restart paths made relative",
+    "origin": "Li 2023 conditional reconstruction/cases/001/flow/in.run",
+    "sha256": "2cd2e200d19d9bad1691ac41af4ed4d98f882144aeab951fec546192b81b8cb1"
+  },
+  "nemd/cases/001/flow/stress_blocks.txt": {
+    "operation": "archived input or derived measurement",
+    "origin": "Li 2023 conditional reconstruction/cases/001/flow/stress_blocks.txt",
+    "sha256": "684576649cef0748d9593d782dfaae01a8aeab60b99994769ec59f01f860289a"
+  },
+  "nemd/cases/002/equilibrium-000/in.run": {
+    "operation": "restart paths made relative",
+    "origin": "Li 2023 conditional reconstruction/cases/002/equilibrium-000/in.run",
+    "sha256": "dd6a72f44f7475aecd1eca28dfbf2107659338a126b98e5149f8e1009d2fe62b"
+  },
+  "nemd/cases/002/flow/in.run": {
+    "operation": "restart paths made relative",
+    "origin": "Li 2023 conditional reconstruction/cases/002/flow/in.run",
+    "sha256": "2cd2e200d19d9bad1691ac41af4ed4d98f882144aeab951fec546192b81b8cb1"
+  },
+  "nemd/cases/002/flow/stress_blocks.txt": {
+    "operation": "archived input or derived measurement",
+    "origin": "Li 2023 conditional reconstruction/cases/002/flow/stress_blocks.txt",
+    "sha256": "bde5ea691bf08c6e268422b6a4aa0d53042c3d785ef454f801c4d9ae05087adf"
+  },
+  "nemd/cases/003/equilibrium-000/in.run": {
+    "operation": "restart paths made relative",
+    "origin": "Li 2023 conditional reconstruction/cases/003/equilibrium-000/in.run",
+    "sha256": "6dbf705c58f49f34a0e8589de45bcfffb819c9a9be51c508db1f7844930a574e"
+  },
+  "nemd/cases/003/flow/in.run": {
+    "operation": "restart paths made relative",
+    "origin": "Li 2023 conditional reconstruction/cases/003/flow/in.run",
+    "sha256": "05f118599de4f73421aec717baf14db099e8e5455e2a0c776f086a5323a99bb0"
+  },
+  "nemd/cases/003/flow/stress_blocks.txt": {
+    "operation": "archived input or derived measurement",
+    "origin": "Li 2023 conditional reconstruction/cases/003/flow/stress_blocks.txt",
+    "sha256": "e7595132c88e8e2b86de9c5982bc6c35033350b720a1516ba24ec7c3aedd64e4"
+  },
+  "nemd/cases/004/equilibrium-000/in.run": {
+    "operation": "restart paths made relative",
+    "origin": "Li 2023 conditional reconstruction/cases/004/equilibrium-000/in.run",
+    "sha256": "c5fde29f8d539434f346ae07586321bc4440139bf42efc1586f241c10f5eb843"
+  },
+  "nemd/cases/004/flow/in.run": {
+    "operation": "restart paths made relative",
+    "origin": "Li 2023 conditional reconstruction/cases/004/flow/in.run",
+    "sha256": "8087e9423580f7ad33c765b266e61bd339c83a0b8f6cced3eb18976f338a6512"
+  },
+  "nemd/cases/004/flow/stress_blocks.txt": {
+    "operation": "archived input or derived measurement",
+    "origin": "Li 2023 conditional reconstruction/cases/004/flow/stress_blocks.txt",
+    "sha256": "3c60feecba751e3a5c655083240baf2feda87b502740e55440de5c2412352841"
+  },
+  "nemd/cases/005/equilibrium-000/in.run": {
+    "operation": "restart paths made relative",
+    "origin": "Li 2023 conditional reconstruction/cases/005/equilibrium-000/in.run",
+    "sha256": "67e39f334f908516a05995066056513e05a00e26d2d31281a9fcb9d8bc006be5"
+  },
+  "nemd/cases/005/flow/in.run": {
+    "operation": "restart paths made relative",
+    "origin": "Li 2023 conditional reconstruction/cases/005/flow/in.run",
+    "sha256": "050aea4260aae1e018bfd41e7249d44019901223c84cd956ac43a04df338eda5"
+  },
+  "nemd/cases/005/flow/stress_blocks.txt": {
+    "operation": "archived input or derived measurement",
+    "origin": "Li 2023 conditional reconstruction/cases/005/flow/stress_blocks.txt",
+    "sha256": "01bf1dde2ce41a274fcc87fff44dc78da59cfe96ed21530a2df37d38e5282eda"
+  },
+  "nemd/cases/006/equilibrium-000/in.run": {
+    "operation": "restart paths made relative",
+    "origin": "Li 2023 conditional reconstruction/cases/006/equilibrium-000/in.run",
+    "sha256": "b29e54dc769842da9450b99a6874431da4baee713b03f74217b5f03798aea3c7"
+  },
+  "nemd/cases/006/flow/in.run": {
+    "operation": "restart paths made relative",
+    "origin": "Li 2023 conditional reconstruction/cases/006/flow/in.run",
+    "sha256": "05f118599de4f73421aec717baf14db099e8e5455e2a0c776f086a5323a99bb0"
+  },
+  "nemd/cases/006/flow/stress_blocks.txt": {
+    "operation": "archived input or derived measurement",
+    "origin": "Li 2023 conditional reconstruction/cases/006/flow/stress_blocks.txt",
+    "sha256": "a02837b331d1a2f7ab78d9ef4401f56dc9e2c2b907f4c453612234a53e84566a"
+  },
+  "nemd/comparison.csv": {
+    "operation": "archived input or derived measurement",
+    "origin": "Li 2023 conditional reconstruction/comparison.csv",
+    "sha256": "f1373996ff85a5fc61626019ac29ef0465d9dffae7c7d85c62f2fa6503e8482b"
+  },
+  "nemd/comparison.json": {
+    "operation": "archived input or derived measurement",
+    "origin": "Li 2023 conditional reconstruction/comparison.json",
+    "sha256": "ac2e6eb1329787e4311945bde95fc57b67c105f1bc0c45c5835a656a3f109069"
+  },
+  "nemd/preparation/nf000/in.run": {
+    "operation": "archived input or derived measurement",
+    "origin": "Li 2023 conditional reconstruction/preparation/nf000/in.run",
+    "sha256": "f4150daf2e05e44459fab3bbf0c302bc2318cbf2570ba244fa9297de676ae082"
+  },
+  "nemd/preparation/nf000/initial_geometry.json": {
+    "operation": "archived input or derived measurement",
+    "origin": "Li 2023 conditional reconstruction/preparation/nf000/initial_geometry.json",
+    "sha256": "6b90921f876be388e182e4c5f8586edc8d063e325ce53f69580e266462ce5d9e"
+  },
+  "nemd/preparation/nf000/system.data": {
+    "operation": "archived input or derived measurement",
+    "origin": "Li 2023 conditional reconstruction/preparation/nf000/system.data",
+    "sha256": "15da8f00ff42ba311247a6dab7ba98c968a36e3e02d81656c1f62d04878c0659"
+  },
+  "nemd/preparation/nf240/in.run": {
+    "operation": "archived input or derived measurement",
+    "origin": "Li 2023 conditional reconstruction/preparation/nf240/in.run",
+    "sha256": "f4150daf2e05e44459fab3bbf0c302bc2318cbf2570ba244fa9297de676ae082"
+  },
+  "nemd/preparation/nf240/initial_geometry.json": {
+    "operation": "archived input or derived measurement",
+    "origin": "Li 2023 conditional reconstruction/preparation/nf240/initial_geometry.json",
+    "sha256": "cbb90e6c61e83a5b53e13daabfe1867e8c8e72bc05c6fb31d8a999d3f349b586"
+  },
+  "nemd/preparation/nf240/system.data": {
+    "operation": "archived input or derived measurement",
+    "origin": "Li 2023 conditional reconstruction/preparation/nf240/system.data",
+    "sha256": "cb04311e009f1227232307c9d4b23b337c12dad71eee530b191969ad8b595c79"
+  },
+  "nemd/registration.json": {
+    "operation": "archived input or derived measurement",
+    "origin": "Li 2023 conditional reconstruction/registration.json",
+    "sha256": "fcff26e523d4427a614c382bb38029e161dc412025d9273f77e55f2d810b2ebc"
+  },
   "runs/ablation/100pct/ablation_extreme_base.csv": {
     "operation": "original bytes",
     "origin": "experiment archive/results/ablation/100pct/ablation_extreme_base.csv",
@@ -303,6 +443,11 @@
     "operation": "original bytes",
     "origin": "experiment archive/results/ablation/100pct/transrheo_training_log.csv",
     "sha256": "8b253fa428ace36ceb878eb8afc2f281b63ff89986eaacf8e940f69e9441e497"
+  },
+  "runs/ablation/100pct/transrheo_y_predictions_all_splits.csv": {
+    "operation": "original bytes, supports independent variants using the archived base",
+    "origin": "experiment archive/results/ablation/100pct/transrheo_y_predictions_all_splits.csv",
+    "sha256": "4798c640f27ce6ebc56af5e281d8e563947697929675d0b47f636396d083ccab"
   },
   "runs/ablation/25pct/ablation_extreme_base.csv": {
     "operation": "original bytes",
@@ -389,6 +534,11 @@
     "origin": "experiment archive/results/ablation/25pct/transrheo_training_log.csv",
     "sha256": "ff6543b31dffc6fcbb3228fca3e35a1ad5ad845e0be6e350ca950cca39868f71"
   },
+  "runs/ablation/25pct/transrheo_y_predictions_all_splits.csv": {
+    "operation": "original bytes, supports independent variants using the archived base",
+    "origin": "experiment archive/results/ablation/25pct/transrheo_y_predictions_all_splits.csv",
+    "sha256": "363701d40745b42f0135ff3f3823801fe034e2ace6b9b58576b2fddd8d4cdb0d"
+  },
   "runs/ablation/50pct/ablation_extreme_base.csv": {
     "operation": "original bytes",
     "origin": "experiment archive/results/ablation/50pct/ablation_extreme_base.csv",
@@ -418,6 +568,11 @@
     "operation": "original bytes",
     "origin": "experiment archive/results/ablation/50pct/transrheo_training_log.csv",
     "sha256": "a98eeee4e9251094f33ba822ea911fa8e84c38ba99c39a30a523a1070fd21adc"
+  },
+  "runs/ablation/50pct/transrheo_y_predictions_all_splits.csv": {
+    "operation": "original bytes, supports independent variants using the archived base",
+    "origin": "experiment archive/results/ablation/50pct/transrheo_y_predictions_all_splits.csv",
+    "sha256": "0b67605873cef4eb0f92ba37d8f20177849a7162529cd2f0f6832eb23cba4515"
   },
   "runs/ablation/75pct/ablation_extreme_base.csv": {
     "operation": "original bytes",
@@ -463,6 +618,11 @@
     "operation": "original bytes",
     "origin": "experiment archive/results/ablation/75pct/transrheo_training_log.csv",
     "sha256": "d24a7f09a104fe07183cf71fd37ac36063c29d082c843f612099d3e744a8599d"
+  },
+  "runs/ablation/75pct/transrheo_y_predictions_all_splits.csv": {
+    "operation": "original bytes, supports independent variants using the archived base",
+    "origin": "experiment archive/results/ablation/75pct/transrheo_y_predictions_all_splits.csv",
+    "sha256": "e8d49f15a4866a208cd0f22da810853022170837ff8df17fbf3e61a130cfde30"
   },
   "runs/ablation/ablation_extreme_regimes.csv": {
     "operation": "original bytes",
@@ -928,6 +1088,21 @@
     "operation": "original bytes",
     "origin": "experiment archive/delta_correction_model.py",
     "sha256": "6bbaac7c98216c53ba7933d2a3d8b5127320133df31e93ec196ba4afb36be13c"
+  },
+  "src/historical/march_backbone.cpython312": {
+    "operation": "original bytes under a portable archival name",
+    "origin": "experiment archive/__pycache__/TransRheo_highfit_multitask.cpython-312.pyc",
+    "sha256": "4a3be8289511ebc69542d7aeb5731384a278b76e26c4f9747b5baa55801030f3"
+  },
+  "src/historical/march_benchmark.cpython312": {
+    "operation": "original bytes under a portable archival name",
+    "origin": "experiment archive/__pycache__/benchmark_llm_transrheo_datafractions.cpython-312.pyc",
+    "sha256": "a93ad1f48e54f3d03f657344fe60bd04f6898327ac6039b2efbbe4d2c015173f"
+  },
+  "src/historical/march_correction.cpython312": {
+    "operation": "original bytes under a portable archival name",
+    "origin": "experiment archive/__pycache__/llm_transrheo_prior_correction_pipeline.cpython-312.pyc",
+    "sha256": "7ed72f14d357bd9b6326c0e3b8fb2e079db17b31b8e23e5db7e65a3541308705"
   },
   "src/knowledge_retriever.py": {
     "operation": "original bytes",

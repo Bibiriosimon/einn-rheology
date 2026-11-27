@@ -9,3 +9,5 @@ python nemd/recompute_viscosities.py
 ```
 
 This reproduces the six viscosities directly from the supplied stress series. The four primary comparison states are listed in `comparison.csv`. Only one of the four agreed with the corresponding archived viscosity within 10%. The two sensitivity controls are in `comparison.json`. These runs are separate from the labels used to train EINN.
+
+The retained run used LAMMPS dated 30 September 2026 with KOKKOS. The flow decks specify SLLOD with `integrator legacy peculiar no kick yes` and zero-interval box deformation. To rerun, use a build that supports these settings and invoke `lmp -in in.run` in each stage directory. The archived GPU execution used `-k on g 1 -sf kk -pk kokkos gpu/aware off`. The preparation stage writes the restart consumed by both branches for that filler count. The reconstruction did not use supplier restarts.

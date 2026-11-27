@@ -73,3 +73,14 @@ The [ablation prediction audit](verification/ablation_prediction_audit.json) ide
 ## Molecular simulation
 
 The [NEMD record](../nemd/README.md) describes the published model parameters that could be recovered, the exact assumptions in the separate six-condition reconstruction and the available input decks. The archive cannot regenerate the original 406 supplied labels directly from raw trajectories.
+
+## Testing with the example knowledge base
+
+A six-note [example corpus](../examples/knowledge) exercises retrieval, text encoding and optimization without a publisher copy or API key. This runs the full 406-row input pipeline and one training epoch.
+
+```sh
+python scripts/refit_evidence.py --run krepc_cached_det_full --knowledge examples/knowledge \
+  --scibert assets/scibert --epochs 1 --out reproduction-output/example
+```
+
+For a historical refit, change the knowledge directory to the original authorized local index and use the desired full training budget. The Flash and Pro variants additionally accept their respective authorized `--cache` files. Cache misses use the deterministic fallback, and this replay entry point cannot call the provider.
