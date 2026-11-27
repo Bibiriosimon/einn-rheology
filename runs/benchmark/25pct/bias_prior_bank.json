@@ -1,0 +1,63 @@
+{
+  "bin_spec": {
+    "phi": {
+      "labels": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thresholds": [
+        0.156,
+        0.34450000000000003
+      ]
+    },
+    "T": {
+      "labels": [
+        "low",
+        "medium",
+        "high",
+        "very_high"
+      ],
+      "thresholds": [
+        0.575,
+        0.775,
+        0.975
+      ]
+    },
+    "logg": {
+      "labels": [
+        "very_low",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thresholds": [
+        -3.150515,
+        -2.150515,
+        -0.650515
+      ]
+    }
+  },
+  "rules": [
+    {
+      "scope": "logg_bin",
+      "key": "very_low",
+      "n": 20,
+      "bias": -0.06132328183978778,
+      "mae": 0.15542723540720688,
+      "pos_frac": 0.15,
+      "direction": "negative_correction",
+      "risk": "high"
+    },
+    {
+      "scope": "phi_bin+T_bin",
+      "key": "medium|low",
+      "n": 18,
+      "bias": -0.0559200412877401,
+      "mae": 0.11161682248009575,
+      "pos_frac": 0.16666666666666666,
+      "direction": "negative_correction",
+      "risk": "medium"
+    }
+  ]
+}

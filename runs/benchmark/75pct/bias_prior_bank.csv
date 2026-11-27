@@ -1,0 +1,4 @@
+scope,key,n,bias,mae,pos_frac,direction,risk
+T_bin,medium,88,-0.07396195908648294,0.12717383284688613,0.22727272727272727,negative_correction,high
+phi_bin+T_bin,low|low,26,-0.044154218920969726,0.05116529296072241,0.23076923076923078,negative_correction,low
+phi_bin+T_bin,medium|medium,29,-0.042809596485665014,0.044300179763400234,0.13793103448275862,negative_correction,low

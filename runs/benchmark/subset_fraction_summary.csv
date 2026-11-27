@@ -1,0 +1,5 @@
+TrainFrac,TrainFracLabel,SelectedIDGroupCount,train_record_count,val_record_count,ood_record_count,id_holdout_record_count,train_group_count,val_group_count,ood_group_count,selected_id_group_count
+0.25,25pct,19,336,40,164,1084,17,2,11,19
+0.5,50pct,51,612,120,164,728,45,6,11,51
+0.75,75pct,77,1032,96,164,332,69,8,11,77
+1.0,100pct,94,1300,160,164,0,84,10,11,94

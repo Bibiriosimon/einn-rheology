@@ -1,0 +1,2 @@
+scope,key,n,bias,mae,pos_frac,direction,risk
+T_bin,very_high,9,-0.015779572299423627,0.04648409506384146,0.1111111111111111,negative_correction,low

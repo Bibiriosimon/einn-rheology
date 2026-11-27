@@ -1,0 +1,962 @@
+{
+  "data/Supplementary_Data.xlsx": {
+    "operation": "original bytes",
+    "origin": "Journal_Upload_Package.zip::Journal_Upload_Package/Supplementary_Data.xlsx",
+    "sha256": "d5906cc0d013c591d4b1e968c76a19694218191e0adcaadb06fb931def4d66cc"
+  },
+  "data/legacy_coordinate_audit.csv": {
+    "operation": "coordinate overlap with earlier file; not raw simulation provenance",
+    "origin": "experiment archive/MDdata.csv and paper archive/new_MDdata_406_records.csv",
+    "sha256": "efa81536f3c0b9f7d87a91337d5b220995a689a2674e9b09de78f149fbd3f68e"
+  },
+  "data/new_MDdata.xlsx": {
+    "operation": "original bytes",
+    "origin": "Journal_Upload_Package.zip::Journal_Upload_Package/Figures_and_Data/Figure_8/data/new_MDdata.xlsx",
+    "sha256": "e3d79b387e6e70d3d0c0328ad32541bb9bbbc8c63f367662c42a476906e0f4d0"
+  },
+  "data/new_MDdata_406_records.csv": {
+    "operation": "original bytes",
+    "origin": "Journal_Upload_Package.zip::Journal_Upload_Package/Figures_and_Data/Figure_8/data/new_MDdata_406_records.csv",
+    "sha256": "d372baac394f06b0f032f88c06741b18fa442064d5e0ecfecf604c06f8db44b3"
+  },
+  "environment/requirements-macos-cpu.lock": {
+    "operation": "original bytes",
+    "origin": "local prior audit/mac-cpu-requirements.txt",
+    "sha256": "d06009986ec4012adbb9ebbf219ae1b412694b595acdb0a39918c3d965c9bb36"
+  },
+  "environment/scibert_config/config.json": {
+    "operation": "original bytes",
+    "origin": "experiment archive/models/scibert_safe/config.json",
+    "sha256": "488e7dbd68e27a38337ecb16358810da6df4226ac3b8880a0fde44bfdc37ccf0"
+  },
+  "figures/Figure_1/data/figure1_benchmark_metrics.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_1/data/figure1_benchmark_metrics.csv",
+    "sha256": "c3715c3a0f9bfbd5549048f2d273d016f0c328342fc256e4b10fb2d7f76de9bc"
+  },
+  "figures/Figure_1/data/figure1_parity_100pct_ood_predictions.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_1/data/figure1_parity_100pct_ood_predictions.csv",
+    "sha256": "1336d805d9766a58131e490ba2e4eaa6c3781738c13cf834e0d4b795674ccf8e"
+  },
+  "figures/Figure_1/data/source_benchmark_100pct_all_model_predictions_y.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_1/data/source_benchmark_100pct_all_model_predictions_y.csv",
+    "sha256": "79e99ea5c4ace9ce22548c964f8529e2dff09470542675ef0a99431654c86e45"
+  },
+  "figures/Figure_1/scripts/figure_style.py": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_1/scripts/figure_style.py",
+    "sha256": "aa40bd9ab8328553f3965eae98c2a85080c2a683bc6909f28953fa90f4c79653"
+  },
+  "figures/Figure_1/scripts/plot_figure_1.py": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_1/scripts/plot_figure_1.py",
+    "sha256": "6f3b2221b2e8fe2ec11f81877d2e09aaf678f1c9fc15c4891109af4733a824cd"
+  },
+  "figures/Figure_2/data/figure2_panel_a_viscosity_vs_shear.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_2/data/figure2_panel_a_viscosity_vs_shear.csv",
+    "sha256": "5de621129c69c86cc01bc7651e333ad2f65ee017ce896118dd62a024ac30c52d"
+  },
+  "figures/Figure_2/data/figure2_panel_b_viscosity_vs_temp.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_2/data/figure2_panel_b_viscosity_vs_temp.csv",
+    "sha256": "8670939498bce7f9063dde532c7cac5402f58c17b37f8931e8b6e62300e7cfe3"
+  },
+  "figures/Figure_2/data/figure2_panel_c_viscosity_vs_phi.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_2/data/figure2_panel_c_viscosity_vs_phi.csv",
+    "sha256": "55af0144505325b09e8622d506521a663abb9df04da7dc15a8577090d77afea3"
+  },
+  "figures/Figure_2/data/source_NEMD_dataset_406_records.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_2/data/source_NEMD_dataset_406_records.csv",
+    "sha256": "d372baac394f06b0f032f88c06741b18fa442064d5e0ecfecf604c06f8db44b3"
+  },
+  "figures/Figure_2/scripts/figure_style.py": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_2/scripts/figure_style.py",
+    "sha256": "aa40bd9ab8328553f3965eae98c2a85080c2a683bc6909f28953fa90f4c79653"
+  },
+  "figures/Figure_2/scripts/plot_figure_2.py": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_2/scripts/plot_figure_2.py",
+    "sha256": "599bb758b821a02c866fc28a33224ac3b5575d1b447f74edc638ab4015d2e2aa"
+  },
+  "figures/Figure_3/data/figure3a_digitization_source.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/TransRheo-submit/figure_revision/derived_data/figure3a_digitized_training_convergence.csv",
+    "sha256": "e2e55a59224872ee6692ccd170664505cad63d203b10a17b22557ce1402d6c37"
+  },
+  "figures/Figure_3/data/figure3a_training_convergence.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_3/data/figure3a_training_convergence.csv",
+    "sha256": "f731fb527fdc1531c63db2b32f705dbc67c54b97cf025621f8bf041e372840f9"
+  },
+  "figures/Figure_3/data/figure3b_viscosity_phi_effect.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_3/data/figure3b_viscosity_phi_effect.csv",
+    "sha256": "1d9e7f3067fcddf3d7b7e4dc4a199114008fbaaddc0c2e56d0584c99fedc08a8"
+  },
+  "figures/Figure_3/data/figure3c_viscosity_temp_effect.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_3/data/figure3c_viscosity_temp_effect.csv",
+    "sha256": "0680a0b96974f1a2fd085d3e53341de2bc8796ff48f9246487caba311869f927"
+  },
+  "figures/Figure_3/data/source_NEMD_dataset_406_records.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_3/data/source_NEMD_dataset_406_records.csv",
+    "sha256": "d372baac394f06b0f032f88c06741b18fa442064d5e0ecfecf604c06f8db44b3"
+  },
+  "figures/Figure_3/scripts/figure_style.py": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_3/scripts/figure_style.py",
+    "sha256": "aa40bd9ab8328553f3965eae98c2a85080c2a683bc6909f28953fa90f4c79653"
+  },
+  "figures/Figure_3/scripts/plot_figure_3.py": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_3/scripts/plot_figure_3.py",
+    "sha256": "5a5de0a975b84ea7a887896b062e8306f71997f69d5596451caeb74c80c45542"
+  },
+  "figures/Figure_4/data/figure4_final_curves.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_4/data/figure4_final_curves.csv",
+    "sha256": "bff9a7659ea7b9debfeaa28b0740f607a49866511ad93bd57378ac3907037dfb"
+  },
+  "figures/Figure_4/data/source_benchmark_25pct_all_model_predictions_y.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_4/data/source_benchmark_25pct_all_model_predictions_y.csv",
+    "sha256": "fdaaad72795b6fe311c8e467b42cfb89b06494d0bd31d0273b4af4d8b4ce31aa"
+  },
+  "figures/Figure_4/scripts/figure_style.py": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_4/scripts/figure_style.py",
+    "sha256": "aa40bd9ab8328553f3965eae98c2a85080c2a683bc6909f28953fa90f4c79653"
+  },
+  "figures/Figure_4/scripts/plot_figure_4.py": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_4/scripts/plot_figure_4.py",
+    "sha256": "8974d1a486520bc57652b524881d23450bda631512b9f59f4b5a0b38e127686b"
+  },
+  "figures/Figure_5/data/figure5_15pct_extreme_regimes_metrics.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_5/data/figure5_15pct_extreme_regimes_metrics.csv",
+    "sha256": "a483784d9ea3eb9917820ae9f8af4f48fff661d3ea31ca535fdf5998a9f90834"
+  },
+  "figures/Figure_5/data/figure5_extreme_regime_summary.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_5/data/figure5_extreme_regime_summary.csv",
+    "sha256": "9bc93ec779df09a273f7d876c27915e11e102a627d27adaa425a33cc37e8a928"
+  },
+  "figures/Figure_5/data/figure5_sample_regime_predictions_25_100pct.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_5/data/figure5_sample_regime_predictions_25_100pct.csv",
+    "sha256": "31bf1d3a1a1295f971c748d06913e97777afda5f3244b65ef520a6a9a45c5f16"
+  },
+  "figures/Figure_5/scripts/figure_style.py": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_5/scripts/figure_style.py",
+    "sha256": "aa40bd9ab8328553f3965eae98c2a85080c2a683bc6909f28953fa90f4c79653"
+  },
+  "figures/Figure_5/scripts/plot_figure_5.py": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_5/scripts/plot_figure_5.py",
+    "sha256": "a591b6546e1820b3004709513e87c347e30fd36e69ef345a75c0f954b3fd9b4b"
+  },
+  "figures/Figure_6/data/benchmark_ood_all_models_all_fractions.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_6/data/benchmark_ood_all_models_all_fractions.csv",
+    "sha256": "f0a71c878c3f46292b2ff1c93b063affc171ca48995ead1660989f6118f3616a"
+  },
+  "figures/Figure_6/data/figure6_accuracy_curves.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_6/data/figure6_accuracy_curves.csv",
+    "sha256": "4d01a9158ac880c7fdda3fdb1d95f4349bdb027c942b3383acec92b5d06f532d"
+  },
+  "figures/Figure_6/data/figure6_sample_predictions_all_fractions.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_6/data/figure6_sample_predictions_all_fractions.csv",
+    "sha256": "c6f183e1c7b66b0f0b15671df837ebf9bb4a951e34d6810611ce2ea627f414f3"
+  },
+  "figures/Figure_6/scripts/figure_style.py": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_6/scripts/figure_style.py",
+    "sha256": "aa40bd9ab8328553f3965eae98c2a85080c2a683bc6909f28953fa90f4c79653"
+  },
+  "figures/Figure_6/scripts/plot_figure_6.py": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_6/scripts/plot_figure_6.py",
+    "sha256": "f0562648ecf3bb2e6cab90ed49ad1fd218ead99965d69de44a4191925554bc1f"
+  },
+  "figures/Figure_8/data/new_MDdata_406_records.csv": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_8/data/new_MDdata_406_records.csv",
+    "sha256": "d372baac394f06b0f032f88c06741b18fa442064d5e0ecfecf604c06f8db44b3"
+  },
+  "figures/Figure_8/scripts/figure_style.py": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_8/scripts/figure_style.py",
+    "sha256": "aa40bd9ab8328553f3965eae98c2a85080c2a683bc6909f28953fa90f4c79653"
+  },
+  "figures/Figure_8/scripts/plot_figure_8.py": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_8/scripts/plot_figure_8.py",
+    "sha256": "59d6c8ee2ed0431f4a9d30070d6ce0644d7a1feb489c42810846b12aa31323a5"
+  },
+  "figures/reference/Figure_1.pdf": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_1/Figure_1.pdf",
+    "sha256": "c632c3229b2d1b38ca4571f95df51a553a32da78f1d7906ca57f65a17c3c28e8"
+  },
+  "figures/reference/Figure_2.pdf": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_2/Figure_2.pdf",
+    "sha256": "9dae7870f01e64e981f5c6c6867eda4c8aeab9a3713be2522f1a850c611e69fe"
+  },
+  "figures/reference/Figure_3.pdf": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_3/Figure_3.pdf",
+    "sha256": "75b2e3a01c4eb7283dd09f1a2b8400aad300c88d60867f50413b12752c179aac"
+  },
+  "figures/reference/Figure_4.pdf": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_4/Figure_4.pdf",
+    "sha256": "b449eccd20a6eaa630cc348f8f9fe046a466b0984ddd6b888b6145773973b751"
+  },
+  "figures/reference/Figure_5.pdf": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_5/Figure_5.pdf",
+    "sha256": "fcc1fe63856448c93aa16b136187c066e3d95c0a56c5f7767683b7f5c7c6dc97"
+  },
+  "figures/reference/Figure_6.pdf": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_6/Figure_6.pdf",
+    "sha256": "276fa9e82c76226f7f73009eee0249832b3aca5292fc27ef240436b038b84763"
+  },
+  "figures/reference/Figure_7.pdf": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_7/Figure_7.pdf",
+    "sha256": "90d816ec623e89f475def731bc63ebb21476bce9733256af282d18b0481ad935"
+  },
+  "figures/reference/Figure_8.pdf": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_8/Figure_8.pdf",
+    "sha256": "000832080bb5bb28a8e4bd75e9e7f3ac109bb372eda2662b7117c47532a3fe7a"
+  },
+  "figures/reference/Figure_9.pdf": {
+    "operation": "original bytes",
+    "origin": "paper archive/Figures_Package_Corrected/Figure_9/Figure_9.pdf",
+    "sha256": "711ba75c205b872d7daedc76fcb82ed9e94a8833bc55b3301ace08edaedc0719"
+  },
+  "runs/ablation/100pct/ablation_extreme_base.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/100pct/ablation_extreme_base.csv",
+    "sha256": "48242d4345f665bdfa456d67c23a09b9a6f307dd68e4128c22e5343aa94ec914"
+  },
+  "runs/ablation/100pct/ablation_extreme_random_summary.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/100pct/ablation_extreme_random_summary.csv",
+    "sha256": "ae42bf1ba85f0905fd771b11259ef26c2b487f31c8563ac728cce54c6df710cb"
+  },
+  "runs/ablation/100pct/ablation_extreme_shuffled_summary.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/100pct/ablation_extreme_shuffled_summary.csv",
+    "sha256": "ddd15fdf313caea441190b34671dc44b73b52dedbaa3324a848961947a8dd3da"
+  },
+  "runs/ablation/100pct/ablation_metrics_base.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/100pct/ablation_metrics_base.csv",
+    "sha256": "ed3ae4366b9f27c35b05d277ed4e3cfde02e35c79efc809dd822edb763a53a65"
+  },
+  "runs/ablation/100pct/ablation_metrics_random_summary.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/100pct/ablation_metrics_random_summary.csv",
+    "sha256": "eec2804c5bc6b3015b99018e206e20995bb488d14d5dc2910bcd5c05d10c8b79"
+  },
+  "runs/ablation/100pct/ablation_metrics_shuffled_summary.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/100pct/ablation_metrics_shuffled_summary.csv",
+    "sha256": "5a941cb967bbfae8f75ebf9d81ba431b48abc404659164b110c7b87844d9f8ae"
+  },
+  "runs/ablation/100pct/bias_prior_bank.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/100pct/bias_prior_bank.csv",
+    "sha256": "9b47afaaff846d08fb366567bba860a56a1d0c3b26bd718943e2aefe05133e89"
+  },
+  "runs/ablation/100pct/krepc_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/100pct/krepc_training_log.csv",
+    "sha256": "2e9c5cabbc5cab660b5ae7d0e690e2b106ce2db8e627a0cdb35edddd3cdd8968"
+  },
+  "runs/ablation/100pct/split_indices.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/100pct/split_indices.csv",
+    "sha256": "968bcb5d83bf94d3a363604f1eba6b7261dfefb37c85ba648a36d9154e4658ce"
+  },
+  "runs/ablation/100pct/transrheo_summary_metrics.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/100pct/transrheo_summary_metrics.csv",
+    "sha256": "ca493cc6ad0caf654874e4ce656edba13f36d76b2c70e5bb1fbbf518b1b66b6e"
+  },
+  "runs/ablation/100pct/transrheo_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/100pct/transrheo_training_log.csv",
+    "sha256": "8b253fa428ace36ceb878eb8afc2f281b63ff89986eaacf8e940f69e9441e497"
+  },
+  "runs/ablation/25pct/ablation_extreme_base.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/ablation_extreme_base.csv",
+    "sha256": "6dde1fbd06a8b8e1d3422f0a97237b6f8ed5c862bc02c19600a17b44f2b1c265"
+  },
+  "runs/ablation/25pct/ablation_extreme_full_einn.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/ablation_extreme_full_einn.csv",
+    "sha256": "b30fc29443159d8b58ef1e9524e2fdd80e7a856d9e33afa3746973eac64b220f"
+  },
+  "runs/ablation/25pct/ablation_extreme_no_gate.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/ablation_extreme_no_gate.csv",
+    "sha256": "b4c561684e50c8a628efc47724ce026a9ec5103ea7c456ae13ce13d7b2bb6705"
+  },
+  "runs/ablation/25pct/ablation_extreme_random_summary.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/ablation_extreme_random_summary.csv",
+    "sha256": "bb1dd277abf594a3765f3de5d4d5aaf3222b6d519414d9a91ef64117b849aec6"
+  },
+  "runs/ablation/25pct/ablation_extreme_residual_only.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/ablation_extreme_residual_only.csv",
+    "sha256": "07089116ca4d9e311c56ca77607573e2a6509850377cba7bfe99f4e495cf103c"
+  },
+  "runs/ablation/25pct/ablation_extreme_shuffled_summary.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/ablation_extreme_shuffled_summary.csv",
+    "sha256": "2fee3d1205aba8a620ff49624fcfd04aeaa8cc183027557b7a851b42b446ec41"
+  },
+  "runs/ablation/25pct/ablation_metrics_base.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/ablation_metrics_base.csv",
+    "sha256": "a9cb52d181562e2b72dcafd3fe758463fd49ee7a8901ce6d25bd406c4e82476d"
+  },
+  "runs/ablation/25pct/ablation_metrics_full_einn.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/ablation_metrics_full_einn.csv",
+    "sha256": "5fbc46ed5378e9e24ca72a6be0abaa3da44d601500ba0051a23a2faba20fbee8"
+  },
+  "runs/ablation/25pct/ablation_metrics_no_gate.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/ablation_metrics_no_gate.csv",
+    "sha256": "fb24a4c7d15d25f5d8c3c2c358ee56246a90a7bbf67909407e80f754a944b420"
+  },
+  "runs/ablation/25pct/ablation_metrics_random_summary.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/ablation_metrics_random_summary.csv",
+    "sha256": "3a38179e0e888e017cef4d0a0355b27935c0fd0f6fe397bddb8dff6fb804bfa5"
+  },
+  "runs/ablation/25pct/ablation_metrics_residual_only.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/ablation_metrics_residual_only.csv",
+    "sha256": "619c8fb4665bac7d783454301f5c8a1c0852c0a313afe31dd8f0a89bb8376e24"
+  },
+  "runs/ablation/25pct/ablation_metrics_shuffled_summary.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/ablation_metrics_shuffled_summary.csv",
+    "sha256": "bb894447f3fef267f3f3f9c8ab0c7413aad7524034059ecc3f24587f781d8744"
+  },
+  "runs/ablation/25pct/bias_prior_bank.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/bias_prior_bank.csv",
+    "sha256": "e632584f7dcc815562cc5a1ded39d4ef445bfc459f1150121c36da1a1538831f"
+  },
+  "runs/ablation/25pct/krepc_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/krepc_training_log.csv",
+    "sha256": "de678717b43819d61f85ea1a3aaf67281df7d9e494b3998c9f9abcee54eac549"
+  },
+  "runs/ablation/25pct/split_indices.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/split_indices.csv",
+    "sha256": "544929ad6a4184fbd06a148ce351a1ac4c3a5c96cf9f163978b9cc377befb063"
+  },
+  "runs/ablation/25pct/transrheo_summary_metrics.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/transrheo_summary_metrics.csv",
+    "sha256": "db2c33dff8f71d407638d53c568eef1058866834683f13121e27d6b82a5ac028"
+  },
+  "runs/ablation/25pct/transrheo_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/25pct/transrheo_training_log.csv",
+    "sha256": "ff6543b31dffc6fcbb3228fca3e35a1ad5ad845e0be6e350ca950cca39868f71"
+  },
+  "runs/ablation/50pct/ablation_extreme_base.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/50pct/ablation_extreme_base.csv",
+    "sha256": "903b9a65fc6051ab4d0265857c35cfca6e1e0b141f2236705ecf61377cf63540"
+  },
+  "runs/ablation/50pct/ablation_metrics_base.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/50pct/ablation_metrics_base.csv",
+    "sha256": "23b5515fed53bd25c8d9dc7e19d94329ea1dae7d438cb0870b373a882fbc2f00"
+  },
+  "runs/ablation/50pct/bias_prior_bank.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/50pct/bias_prior_bank.csv",
+    "sha256": "40c8236bb0f081313c3cc9c98c6c66b7558ea4ca881013b897356729bc9b6f95"
+  },
+  "runs/ablation/50pct/split_indices.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/50pct/split_indices.csv",
+    "sha256": "22fc43bee42d1978875fb7f54b0c4312a0cf7508cc4f2dfd1dc1fb12aecc11dd"
+  },
+  "runs/ablation/50pct/transrheo_summary_metrics.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/50pct/transrheo_summary_metrics.csv",
+    "sha256": "c1ed9d37f9173e12260987011819b1c8644c4cf6c9ee70efb7087d6ee94521a9"
+  },
+  "runs/ablation/50pct/transrheo_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/50pct/transrheo_training_log.csv",
+    "sha256": "a98eeee4e9251094f33ba822ea911fa8e84c38ba99c39a30a523a1070fd21adc"
+  },
+  "runs/ablation/75pct/ablation_extreme_base.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/75pct/ablation_extreme_base.csv",
+    "sha256": "854bb9289fd630a9cc8883a2103752d7a47d6d57973a1ec4f6779c7aa30c74b5"
+  },
+  "runs/ablation/75pct/ablation_extreme_residual_only.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/75pct/ablation_extreme_residual_only.csv",
+    "sha256": "40fb566242fb47fbe48abe820e7e0e00aec1c2dfebcb84d5c672c7326466dcc7"
+  },
+  "runs/ablation/75pct/ablation_metrics_base.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/75pct/ablation_metrics_base.csv",
+    "sha256": "670c2441cd57533427a61e579c3274c5589b2896b57c5c2175b33f60b30f7488"
+  },
+  "runs/ablation/75pct/ablation_metrics_residual_only.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/75pct/ablation_metrics_residual_only.csv",
+    "sha256": "f126b0425f31bbdbe981d29a52942df904a242f8386bfb255ae5c35b816df4f2"
+  },
+  "runs/ablation/75pct/bias_prior_bank.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/75pct/bias_prior_bank.csv",
+    "sha256": "5de752b2b74bdb4d82c18bbfa14984ae0c6875925ecb7a9fc2f44050eaea0488"
+  },
+  "runs/ablation/75pct/krepc_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/75pct/krepc_training_log.csv",
+    "sha256": "007f6aedb939752aa6c726c3ddb161b6536deb7793c1953beb531b1a9c7dd7b7"
+  },
+  "runs/ablation/75pct/split_indices.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/75pct/split_indices.csv",
+    "sha256": "49af19d8e0a290589f80eaec9e37a3588675e7ebd463a7ad015a16bc3482fdef"
+  },
+  "runs/ablation/75pct/transrheo_summary_metrics.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/75pct/transrheo_summary_metrics.csv",
+    "sha256": "3ccda36eb185db6290fda1806a17d5b5aa004898ee0167744d0d30cd8db45491"
+  },
+  "runs/ablation/75pct/transrheo_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/75pct/transrheo_training_log.csv",
+    "sha256": "d24a7f09a104fe07183cf71fd37ac36063c29d082c843f612099d3e744a8599d"
+  },
+  "runs/ablation/ablation_extreme_regimes.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/ablation_extreme_regimes.csv",
+    "sha256": "23f27b6c4c69acddf85fac27b407e6ff5bda517444cc8b1de4aa4c5c392b013b"
+  },
+  "runs/ablation/ablation_overall_ood.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/results/ablation/ablation_overall_ood.csv",
+    "sha256": "1838b584ab8930dc723689ea3ded092ae15f5b8b7afa8430469ea71769f4284f"
+  },
+  "runs/benchmark/100pct/all_model_predictions_y.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/100pct/all_model_predictions_y.csv",
+    "sha256": "79e99ea5c4ace9ce22548c964f8529e2dff09470542675ef0a99431654c86e45"
+  },
+  "runs/benchmark/100pct/benchmark_ood_all_models_y.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/100pct/benchmark_ood_all_models_y.csv",
+    "sha256": "873aac8c8b7326837c44154f73969453629c5faf0dd1313fe7b1cefb6ea3964f"
+  },
+  "runs/benchmark/100pct/bias_prior_bank.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/100pct/bias_prior_bank.csv",
+    "sha256": "867f910d2ca6c2444549f176b6317a4fd7b9a1ea3e519f7484bb55c6141caa8c"
+  },
+  "runs/benchmark/100pct/bias_prior_bank.json": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/100pct/bias_prior_bank.json",
+    "sha256": "85790a9c2a2073f5a77561ce1ae1a0cc47a521b5a52920224250361f6be2dbca"
+  },
+  "runs/benchmark/100pct/llm_correction_scaler.npz": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/100pct/llm_correction_scaler.npz",
+    "sha256": "ebe0f0a1baa899c6099aff21146858fc6ee6a39b6562debca439f132377542b1"
+  },
+  "runs/benchmark/100pct/llm_transrheo_predictions_all_splits.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/100pct/llm_transrheo_predictions_all_splits.csv",
+    "sha256": "1f4223bc3058d0fff8b968e51d09eb172bec5e7dbe811a9773001296c96207fd"
+  },
+  "runs/benchmark/100pct/llm_transrheo_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/100pct/llm_transrheo_training_log.csv",
+    "sha256": "d6714e581bd128e2b32f45b9601887474bae3f3811193fa9240798f53ebc1245"
+  },
+  "runs/benchmark/100pct/prior_conditioned_dataset.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/100pct/prior_conditioned_dataset.csv",
+    "sha256": "3e8eae1e25a79d198fc794098baa81ac63ddac3967407f773d22b0265db6bb94"
+  },
+  "runs/benchmark/100pct/split_indices.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/100pct/split_indices.csv",
+    "sha256": "a8a5d88650107e66dc03e214ac45455673e2b7f8a0d187ab6a958543ca59b4d7"
+  },
+  "runs/benchmark/100pct/subset_meta.json": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/100pct/subset_meta.json",
+    "sha256": "696e322316092d6f78a96015d6064d4451153ae1ff0e7332b61016cd4d4aad16"
+  },
+  "runs/benchmark/100pct/transrheo_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/100pct/transrheo_training_log.csv",
+    "sha256": "cc39604b01e52ca1472a24bb175161d743e453e2164e480f5986f3a041040e68"
+  },
+  "runs/benchmark/100pct/transrheo_y_predictions_all_splits.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/100pct/transrheo_y_predictions_all_splits.csv",
+    "sha256": "9b06ac6bb8f7c65c86e6c823208fc0e38e71c47fbfc65cb6f1ee61a525f19c9e"
+  },
+  "runs/benchmark/25pct/all_model_predictions_y.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/25pct/all_model_predictions_y.csv",
+    "sha256": "fdaaad72795b6fe311c8e467b42cfb89b06494d0bd31d0273b4af4d8b4ce31aa"
+  },
+  "runs/benchmark/25pct/benchmark_ood_all_models_y.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/25pct/benchmark_ood_all_models_y.csv",
+    "sha256": "074f519261ab945fbd04ff73f29147d9c87d80b239ed0710dd444a750b313ebf"
+  },
+  "runs/benchmark/25pct/bias_prior_bank.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/25pct/bias_prior_bank.csv",
+    "sha256": "8da56b98677ef5aff8ae1991ca11ce9bdc6c191698336ae3569c910fb023de51"
+  },
+  "runs/benchmark/25pct/bias_prior_bank.json": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/25pct/bias_prior_bank.json",
+    "sha256": "6a3b14b7d652707c3e29744a4cdcf53f8ab1d528573413c1d8e0fdd16d917e7f"
+  },
+  "runs/benchmark/25pct/llm_correction_scaler.npz": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/25pct/llm_correction_scaler.npz",
+    "sha256": "0b2a0c9a7269df46dd30222132f0f5cad7429aa79f27cdccd7a95291b3286027"
+  },
+  "runs/benchmark/25pct/llm_transrheo_predictions_all_splits.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/25pct/llm_transrheo_predictions_all_splits.csv",
+    "sha256": "671763179764d9036933c395b7aec0a81fb5771746b8f6969fc0b53925001148"
+  },
+  "runs/benchmark/25pct/llm_transrheo_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/25pct/llm_transrheo_training_log.csv",
+    "sha256": "cf053cc5b50838888526320140a5f4cffde60b1685821df3ee76ce27775cc7d6"
+  },
+  "runs/benchmark/25pct/prior_conditioned_dataset.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/25pct/prior_conditioned_dataset.csv",
+    "sha256": "73b07fd70c3008ab3bd7a2da21805deb35ed21a562900af0ef8d95429090bc19"
+  },
+  "runs/benchmark/25pct/split_indices.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/25pct/split_indices.csv",
+    "sha256": "37b3e9a714badd8708f8bcc391c7d851572e0655aaeac8dce7d5b1651b1da8b9"
+  },
+  "runs/benchmark/25pct/subset_meta.json": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/25pct/subset_meta.json",
+    "sha256": "aba38e7b3e7c2e57776226ed1044c5646cba702544701300856aaf042c126804"
+  },
+  "runs/benchmark/25pct/transrheo_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/25pct/transrheo_training_log.csv",
+    "sha256": "5bc8990f974d7072125080c2f85306f96b52cc9d7fba607bc185a7ec02732d33"
+  },
+  "runs/benchmark/25pct/transrheo_y_predictions_all_splits.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/25pct/transrheo_y_predictions_all_splits.csv",
+    "sha256": "ff961cd9ffce91dac81a9a8edcd6a080e09b912377dd5c3f7bfed334ff323e07"
+  },
+  "runs/benchmark/50pct/all_model_predictions_y.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/50pct/all_model_predictions_y.csv",
+    "sha256": "af91f2d8fb772907edcc8a20eb2cdae9a435524402ef01f41b329111d1218b65"
+  },
+  "runs/benchmark/50pct/benchmark_ood_all_models_y.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/50pct/benchmark_ood_all_models_y.csv",
+    "sha256": "f9790a6bb427fab43328b58028ef70b62aa22643cbbfeffe2e9c46ae98fcbd2d"
+  },
+  "runs/benchmark/50pct/bias_prior_bank.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/50pct/bias_prior_bank.csv",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  "runs/benchmark/50pct/bias_prior_bank.json": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/50pct/bias_prior_bank.json",
+    "sha256": "e762149310a01381cd13981c1de0dc7e9d8ec243639549a28e45021350c31f3d"
+  },
+  "runs/benchmark/50pct/llm_correction_scaler.npz": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/50pct/llm_correction_scaler.npz",
+    "sha256": "332d2f81ae199c1fc4c6645f222f9337c438a9d87b886ab419b8976882b31347"
+  },
+  "runs/benchmark/50pct/llm_transrheo_predictions_all_splits.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/50pct/llm_transrheo_predictions_all_splits.csv",
+    "sha256": "fc940aeb00b18e85b7475b4ad96692796cedca068476e450c5240d89b758c5a3"
+  },
+  "runs/benchmark/50pct/llm_transrheo_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/50pct/llm_transrheo_training_log.csv",
+    "sha256": "e2f5aac494052ee911f997e5854be73725a1b40b8576d9bc9458fa6d47a09520"
+  },
+  "runs/benchmark/50pct/prior_conditioned_dataset.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/50pct/prior_conditioned_dataset.csv",
+    "sha256": "a6a95ef652eb7de548d131be35d181a5318465685c02ae26720ac4b11dd80825"
+  },
+  "runs/benchmark/50pct/split_indices.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/50pct/split_indices.csv",
+    "sha256": "ea09da6725080712caa10c43c9c4ab0a0e816a63173e79ecece79fb8d64b34b6"
+  },
+  "runs/benchmark/50pct/subset_meta.json": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/50pct/subset_meta.json",
+    "sha256": "338020b39da7b8958cf9821b934c2fb74bb4b32e14bff95466c27820bdda0660"
+  },
+  "runs/benchmark/50pct/transrheo_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/50pct/transrheo_training_log.csv",
+    "sha256": "a7aefaf37cb37964b2ac2a55bc3a9ffe1cdcfd08c503103e4419f18beab74138"
+  },
+  "runs/benchmark/50pct/transrheo_y_predictions_all_splits.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/50pct/transrheo_y_predictions_all_splits.csv",
+    "sha256": "50cff7b786a1492603b329d20b6a0208ece3e5a0295526592c06f0644df5c121"
+  },
+  "runs/benchmark/75pct/all_model_predictions_y.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/75pct/all_model_predictions_y.csv",
+    "sha256": "d6a487f21fd90ad73d71dee5ac511c0877e7f8cad80a23ff0d586daebca21d8e"
+  },
+  "runs/benchmark/75pct/benchmark_ood_all_models_y.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/75pct/benchmark_ood_all_models_y.csv",
+    "sha256": "af905fbc084c90fc8e6ecc11ccb949c0032291d13b3752be163435912556680f"
+  },
+  "runs/benchmark/75pct/bias_prior_bank.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/75pct/bias_prior_bank.csv",
+    "sha256": "b57e006630c70eebfeea8817bfa7bb673aef7080ab3adf164d03d23192b95c1f"
+  },
+  "runs/benchmark/75pct/bias_prior_bank.json": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/75pct/bias_prior_bank.json",
+    "sha256": "b9cf56e070b9ec95f326b80d39d1740cad2f71b9a3710ada8c144d2b0e34338f"
+  },
+  "runs/benchmark/75pct/llm_correction_scaler.npz": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/75pct/llm_correction_scaler.npz",
+    "sha256": "4ae8e13a2a544b23ca3f29459f8fa7a1e314594042f2621df611e34b08af1ac2"
+  },
+  "runs/benchmark/75pct/llm_transrheo_predictions_all_splits.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/75pct/llm_transrheo_predictions_all_splits.csv",
+    "sha256": "5eff9bb503e2249b115651c1c015986da6544ac93c1275b31f3385f44a0a1aba"
+  },
+  "runs/benchmark/75pct/llm_transrheo_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/75pct/llm_transrheo_training_log.csv",
+    "sha256": "ec1a81cc3a12986beef2c43363cf9772d62ab3949bca4703143ef608989a248d"
+  },
+  "runs/benchmark/75pct/prior_conditioned_dataset.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/75pct/prior_conditioned_dataset.csv",
+    "sha256": "68c1fa60cb39fe6370391b7ebc6afe0ad6d3bb5700ad163dde0d6e6436ca8908"
+  },
+  "runs/benchmark/75pct/split_indices.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/75pct/split_indices.csv",
+    "sha256": "40de85a5d6a17342153c3dad71f3c46eb3ea40dbc625a8f82a1e8d0caa555569"
+  },
+  "runs/benchmark/75pct/subset_meta.json": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/75pct/subset_meta.json",
+    "sha256": "41dd19d3226d4ed0188b29d78cc8162ffa99fb89f349e1fb127a7e114ef7ccae"
+  },
+  "runs/benchmark/75pct/transrheo_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/75pct/transrheo_training_log.csv",
+    "sha256": "4abfc8fa587eeb4313bee032f05125d50071bf151de82dbf8c84cf570cd6ae8b"
+  },
+  "runs/benchmark/75pct/transrheo_y_predictions_all_splits.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/75pct/transrheo_y_predictions_all_splits.csv",
+    "sha256": "b88bf71b773225cbcef857e13600b7ae9353ce4a15e11803066d18b11f1c938b"
+  },
+  "runs/benchmark/all_model_predictions_all_fractions.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/all_model_predictions_all_fractions.csv",
+    "sha256": "2702efcedae22313fe33e7329a1637f0844672dbf77e204ad79fbdb19d57618a"
+  },
+  "runs/benchmark/benchmark_ood_all_models_all_fractions.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/benchmark_ood_all_models_all_fractions.csv",
+    "sha256": "f0a71c878c3f46292b2ff1c93b063affc171ca48995ead1660989f6118f3616a"
+  },
+  "runs/benchmark/benchmark_ood_extreme_regimes_all_fractions.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/benchmark_ood_extreme_regimes_all_fractions.csv",
+    "sha256": "5cd16b647350b1d1b5074f2b1169af209c5db1f3c22436cb0cbda1b4035d9858"
+  },
+  "runs/benchmark/subset_fraction_summary.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark-3.11/subset_fraction_summary.csv",
+    "sha256": "19974399bc91a1546bf5efab72944b4bf0895418adb9a346df3cb473f30e07e7"
+  },
+  "runs/benchmark_extreme_15_25_50_75_100/extreme_regime_15_25_50_75_100_merged.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark_extreme_15_25_50_75_100/extreme_regime_15_25_50_75_100_merged.csv",
+    "sha256": "f68dfbc274caea272e908d09f395e65dcd4e613fbab6d827183b48106356fb50"
+  },
+  "runs/benchmark_sparsefractions_run/15pct/benchmark_ood_extreme_regimes_y.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark_sparsefractions_run/15pct/benchmark_ood_extreme_regimes_y.csv",
+    "sha256": "349c767cc19fb0112b3baab8bc253555b0e9568b4bc26ab59209c7b667e09ac4"
+  },
+  "runs/benchmark_sparsefractions_run/15pct/llm_transrheo_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark_sparsefractions_run/15pct/llm_transrheo_training_log.csv",
+    "sha256": "1d2b25ff8e1c26e0b2fd7b1d90e3a2d0698efeed336096fca435691184f4dce7"
+  },
+  "runs/benchmark_sparsefractions_run/15pct/split_indices.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark_sparsefractions_run/15pct/split_indices.csv",
+    "sha256": "c4aaede2ad42703e5044af545240d155589be0e2da17554fc476222b3857dbd5"
+  },
+  "runs/benchmark_sparsefractions_run/15pct/subset_meta.json": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark_sparsefractions_run/15pct/subset_meta.json",
+    "sha256": "e3a5d398cb90cbfe9e91f045e8499c9f9f73e1c5b38d1c2613f4d8d8d98a4093"
+  },
+  "runs/benchmark_sparsefractions_run/15pct/transrheo_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark_sparsefractions_run/15pct/transrheo_training_log.csv",
+    "sha256": "8b638983861bfa722a5be0a90e87201b950862840e36dc9c5a04ce6bbbe5c48d"
+  },
+  "runs/krepc_cached_det_full/benchmark_ood_all_models_y.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/krepc_cached_det_full/benchmark_ood_all_models_y.csv",
+    "sha256": "c607ec1b993041e7b55bdffc0eb1fb8f9d1b21ca662991e20c0e7dc21a033945"
+  },
+  "runs/krepc_cached_det_full/bias_prior_bank.json": {
+    "operation": "original bytes",
+    "origin": "experiment archive/krepc_cached_det_full/bias_prior_bank.json",
+    "sha256": "004c79265292043b8a49f25552a4786dba9a4370c34b1670668cdf75915fc3ae"
+  },
+  "runs/krepc_cached_det_full/evidence_locators.csv": {
+    "operation": "bibliographic identifiers, page numbers and scores only",
+    "origin": "experiment archive/krepc_cached_det_full/krepc_retrieval_feedback.jsonl",
+    "sha256": "fdb9b5d6572aaa48ba8dbc16b630df8da02820f7031a015805e825c8d3edb554"
+  },
+  "runs/krepc_cached_det_full/frozen_encoder_features.npz": {
+    "operation": "float32 pooled SciBERT outputs, CLS pooling with length 320/192",
+    "origin": "experiment archive/krepc_cached_det_full/krepc_predictions_all_splits.csv and krepc_ckpt.pt",
+    "sha256": "e3a6667f130c1012e2861f8d690462f6a20e5b48e11a2054020e85f62827a02e"
+  },
+  "runs/krepc_cached_det_full/head_state.pt": {
+    "operation": "head tensors only, values compared exactly",
+    "origin": "experiment archive/krepc_cached_det_full/krepc_ckpt.pt",
+    "sha256": "01d2e3145817f2744f6ead5c4cf5912e9b097d7642d64e31edcd136ad1dedaa4"
+  },
+  "runs/krepc_cached_det_full/krepc_delta_bin_spec.json": {
+    "operation": "original bytes",
+    "origin": "experiment archive/krepc_cached_det_full/krepc_delta_bin_spec.json",
+    "sha256": "12c1c4c06b348cae2e426c3d3158da8ce3041b8f21cb7d71d4141fae8eb60210"
+  },
+  "runs/krepc_cached_det_full/krepc_predictions_numeric.csv": {
+    "operation": "omits free-text prompt, evidence and summary fields",
+    "origin": "experiment archive/krepc_cached_det_full/krepc_predictions_all_splits.csv",
+    "sha256": "1a440265a705444ca795274f4f6face6dad295db50666dbb06f1cd1c794bd47e"
+  },
+  "runs/krepc_cached_det_full/krepc_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/krepc_cached_det_full/krepc_training_log.csv",
+    "sha256": "9a941e66421977b4930090cc6a39c6c3e37fae852068ac552073c2564a5f68be"
+  },
+  "runs/krepc_cached_det_full/llm_correction_scaler.npz": {
+    "operation": "original bytes",
+    "origin": "experiment archive/krepc_cached_det_full/llm_correction_scaler.npz",
+    "sha256": "5e850c6578214cfe38a4b7cb96a88dc5da832c7cd840bfcb9db617ee4515e4d1"
+  },
+  "runs/krepc_cached_ds_flash_full/benchmark_ood_all_models_y.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/krepc_cached_ds_flash_full/benchmark_ood_all_models_y.csv",
+    "sha256": "7bdf019a8ffda70cd9c17539dff216dd2ae09082d805c9ec2d6c16344275a4e9"
+  },
+  "runs/krepc_cached_ds_flash_full/bias_prior_bank.json": {
+    "operation": "original bytes",
+    "origin": "experiment archive/krepc_cached_ds_flash_full/bias_prior_bank.json",
+    "sha256": "004c79265292043b8a49f25552a4786dba9a4370c34b1670668cdf75915fc3ae"
+  },
+  "runs/krepc_cached_ds_flash_full/evidence_locators.csv": {
+    "operation": "bibliographic identifiers, page numbers and scores only",
+    "origin": "experiment archive/krepc_cached_ds_flash_full/krepc_retrieval_feedback.jsonl",
+    "sha256": "018a85571525777755e77dd9f68ffc48112aa3fb43008bc43ac5b87e1ef9d1ea"
+  },
+  "runs/krepc_cached_ds_flash_full/frozen_encoder_features.npz": {
+    "operation": "float32 pooled SciBERT outputs, CLS pooling with length 320/192",
+    "origin": "experiment archive/krepc_cached_ds_flash_full/krepc_predictions_all_splits.csv and krepc_ckpt.pt",
+    "sha256": "613bb1f429328fb3eedd289a34524f2888baf43ed79b9b05d9172f07974640fd"
+  },
+  "runs/krepc_cached_ds_flash_full/head_state.pt": {
+    "operation": "head tensors only, values compared exactly",
+    "origin": "experiment archive/krepc_cached_ds_flash_full/krepc_ckpt.pt",
+    "sha256": "5c156bddc9548211afc34b7999255e66d8bb79826651504232c5dee44b56cc84"
+  },
+  "runs/krepc_cached_ds_flash_full/krepc_delta_bin_spec.json": {
+    "operation": "original bytes",
+    "origin": "experiment archive/krepc_cached_ds_flash_full/krepc_delta_bin_spec.json",
+    "sha256": "12c1c4c06b348cae2e426c3d3158da8ce3041b8f21cb7d71d4141fae8eb60210"
+  },
+  "runs/krepc_cached_ds_flash_full/krepc_predictions_numeric.csv": {
+    "operation": "omits free-text prompt, evidence and summary fields",
+    "origin": "experiment archive/krepc_cached_ds_flash_full/krepc_predictions_all_splits.csv",
+    "sha256": "6abac4e62d45923a2d572b13db9ffcaeaa312caa2f38a092adba6d3267f04104"
+  },
+  "runs/krepc_cached_ds_flash_full/krepc_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/krepc_cached_ds_flash_full/krepc_training_log.csv",
+    "sha256": "3af44e455f98af47ee7dc226906d1e36da547eae159de0b708aeb6b4e6609e7b"
+  },
+  "runs/krepc_cached_ds_flash_full/llm_correction_scaler.npz": {
+    "operation": "original bytes",
+    "origin": "experiment archive/krepc_cached_ds_flash_full/llm_correction_scaler.npz",
+    "sha256": "5e850c6578214cfe38a4b7cb96a88dc5da832c7cd840bfcb9db617ee4515e4d1"
+  },
+  "runs/krepc_cached_ds_full/benchmark_ood_all_models_y.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/krepc_cached_ds_full/benchmark_ood_all_models_y.csv",
+    "sha256": "2cd0af875f893ab08a56bc0a8f6bbbf0f8e78bacb2e61138803fd0d678f1699d"
+  },
+  "runs/krepc_cached_ds_full/bias_prior_bank.json": {
+    "operation": "original bytes",
+    "origin": "experiment archive/krepc_cached_ds_full/bias_prior_bank.json",
+    "sha256": "004c79265292043b8a49f25552a4786dba9a4370c34b1670668cdf75915fc3ae"
+  },
+  "runs/krepc_cached_ds_full/evidence_locators.csv": {
+    "operation": "bibliographic identifiers, page numbers and scores only",
+    "origin": "experiment archive/krepc_cached_ds_full/krepc_retrieval_feedback.jsonl",
+    "sha256": "d580737be888c3e6b196a211523a31d8c09990b2e50f3a1a259ce7d6893fdf54"
+  },
+  "runs/krepc_cached_ds_full/frozen_encoder_features.npz": {
+    "operation": "float32 pooled SciBERT outputs, CLS pooling with length 320/192",
+    "origin": "experiment archive/krepc_cached_ds_full/krepc_predictions_all_splits.csv and krepc_ckpt.pt",
+    "sha256": "873c930e894fc7ab8cea0a1d05e3b461d9f28a8585bbde7bdf950cc6bfa32dec"
+  },
+  "runs/krepc_cached_ds_full/head_state.pt": {
+    "operation": "head tensors only, values compared exactly",
+    "origin": "experiment archive/krepc_cached_ds_full/krepc_ckpt.pt",
+    "sha256": "e111082bb8e8d0f02026db147e8b51702cb6a41f2a34d569f6d6a931206f4e7f"
+  },
+  "runs/krepc_cached_ds_full/krepc_delta_bin_spec.json": {
+    "operation": "original bytes",
+    "origin": "experiment archive/krepc_cached_ds_full/krepc_delta_bin_spec.json",
+    "sha256": "12c1c4c06b348cae2e426c3d3158da8ce3041b8f21cb7d71d4141fae8eb60210"
+  },
+  "runs/krepc_cached_ds_full/krepc_predictions_numeric.csv": {
+    "operation": "omits free-text prompt, evidence and summary fields",
+    "origin": "experiment archive/krepc_cached_ds_full/krepc_predictions_all_splits.csv",
+    "sha256": "8fb77e4866ffbe3a1a1ae672b302bce66c97584c753c94266078cdd584763d65"
+  },
+  "runs/krepc_cached_ds_full/krepc_training_log.csv": {
+    "operation": "original bytes",
+    "origin": "experiment archive/krepc_cached_ds_full/krepc_training_log.csv",
+    "sha256": "6cd81aa8b9e0469a76c98d999eac537d378a1b8ff0e80fe39894891b2f8a0860"
+  },
+  "runs/krepc_cached_ds_full/llm_correction_scaler.npz": {
+    "operation": "original bytes",
+    "origin": "experiment archive/krepc_cached_ds_full/llm_correction_scaler.npz",
+    "sha256": "5e850c6578214cfe38a4b7cb96a88dc5da832c7cd840bfcb9db617ee4515e4d1"
+  },
+  "src/TransRheo_highfit_multitask.py": {
+    "operation": "original bytes",
+    "origin": "experiment archive/TransRheo_highfit_multitask.py",
+    "sha256": "edce84be81ca484d86d3d5defbdd932af932103e8648bc65a72003a369fa9898"
+  },
+  "src/ablation_epc_evidence_control.py": {
+    "operation": "original bytes",
+    "origin": "experiment archive/ablation_epc_evidence_control.py",
+    "sha256": "55211cf973476eeabe4341fed5f7961274b68a19f4017c12933214921d8b9c42"
+  },
+  "src/benchmark_llm_transrheo_datafractions.py": {
+    "operation": "original bytes",
+    "origin": "experiment archive/benchmark_llm_transrheo_datafractions.py",
+    "sha256": "93252a2bff536291bc2f14e92c271d1b1ac7441044669fc56b2397c4fb6387ee"
+  },
+  "src/build_extreme_regime_experiment.py": {
+    "operation": "original bytes",
+    "origin": "experiment archive/build_extreme_regime_experiment.py",
+    "sha256": "a68b35b60d52c95e032ac2796156c7ef5cf3587854278f71dedd45f6565fbcf6"
+  },
+  "src/build_table1_ood_consistent.py": {
+    "operation": "original bytes",
+    "origin": "experiment archive/build_table1_ood_consistent.py",
+    "sha256": "4a8685f47c1366077b605089bc5b17f530b68012d6aefc10d1f6981866eb49a5"
+  },
+  "src/delta_correction_model.py": {
+    "operation": "original bytes",
+    "origin": "experiment archive/delta_correction_model.py",
+    "sha256": "6bbaac7c98216c53ba7933d2a3d8b5127320133df31e93ec196ba4afb36be13c"
+  },
+  "src/knowledge_retriever.py": {
+    "operation": "original bytes",
+    "origin": "experiment archive/knowledge_retriever.py",
+    "sha256": "85923ca5d39cc8e028134e9dc5ddc7c8406fcdcf23e933f94562ab4bf7f4b8d2"
+  },
+  "src/llm_transrheo_prior_correction_pipeline.py": {
+    "operation": "original bytes",
+    "origin": "experiment archive/llm_transrheo_prior_correction_pipeline.py",
+    "sha256": "792baa6989fd09598493bc4fe59abf90eeefe902e2f4f62ce069be8d75baaea6"
+  },
+  "src/plot_fraction_accuracy_curves.py": {
+    "operation": "original bytes",
+    "origin": "experiment archive/plot_fraction_accuracy_curves.py",
+    "sha256": "f76015c5ed0ad7a8026761763718194b409c1000cd8e85bea0fe195449faf75c"
+  },
+  "src/plot_parity_six_models.py": {
+    "operation": "original bytes",
+    "origin": "experiment archive/plot_parity_six_models.py",
+    "sha256": "8609563717d1249628b2636814120ab0e15fe09a405d6a4f62b4e27f6670634a"
+  },
+  "src/run_all_ablation.sh": {
+    "operation": "original bytes",
+    "origin": "experiment archive/run_all_ablation.sh",
+    "sha256": "97887504ed32a6b46e52fcc3eb05fd9d60c2e578ee848868254d22b8e8a4f373"
+  },
+  "src/run_remaining_ablation.sh": {
+    "operation": "original bytes",
+    "origin": "experiment archive/run_remaining_ablation.sh",
+    "sha256": "81010991035f22e05e2e43b87520722c49f537f0784205e09e307ce3b35abfcf"
+  }
+}

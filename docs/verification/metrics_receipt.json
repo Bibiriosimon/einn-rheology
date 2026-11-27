@@ -1,0 +1,57 @@
+{
+  "archival_integrity_files": 192,
+  "dataset": {
+    "condition_groups": 105,
+    "rows": 406,
+    "unique_coordinates": 406
+  },
+  "figure_1_predicted_points": {
+    "max_abs_difference": 8.881784197001252e-16,
+    "rows": 246
+  },
+  "fractions": {
+    "25": {
+      "exact_template_matches": 406,
+      "rows_by_split": {
+        "ID_HOLDOUT": 271,
+        "OOD": 41,
+        "TRAIN": 84,
+        "VAL": 10
+      }
+    },
+    "50": {
+      "exact_template_matches": 406,
+      "rows_by_split": {
+        "ID_HOLDOUT": 182,
+        "OOD": 41,
+        "TRAIN": 153,
+        "VAL": 30
+      }
+    },
+    "75": {
+      "exact_template_matches": 406,
+      "rows_by_split": {
+        "ID_HOLDOUT": 83,
+        "OOD": 41,
+        "TRAIN": 258,
+        "VAL": 24
+      }
+    },
+    "100": {
+      "exact_template_matches": 406,
+      "rows_by_split": {
+        "OOD": 41,
+        "TRAIN": 325,
+        "VAL": 40
+      }
+    }
+  },
+  "table_1_mae_recomputed_from_ood_predictions": {
+    "max_abs_difference": 1.1102230246251565e-16,
+    "rows": 24
+  },
+  "table_4_mae_matched_to_archived_summary": {
+    "max_abs_difference": 0.0,
+    "rows": 24
+  }
+}

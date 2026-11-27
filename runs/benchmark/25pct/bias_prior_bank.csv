@@ -1,0 +1,3 @@
+scope,key,n,bias,mae,pos_frac,direction,risk
+logg_bin,very_low,20,-0.06132328183978778,0.15542723540720688,0.15,negative_correction,high
+phi_bin+T_bin,medium|low,18,-0.0559200412877401,0.11161682248009575,0.16666666666666666,negative_correction,medium

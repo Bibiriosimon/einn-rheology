@@ -1,0 +1,10 @@
+{
+  "train_record_count": 1300,
+  "val_record_count": 160,
+  "ood_record_count": 164,
+  "id_holdout_record_count": 0,
+  "train_group_count": 84,
+  "val_group_count": 10,
+  "ood_group_count": 11,
+  "selected_id_group_count": 94
+}

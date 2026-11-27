@@ -1,0 +1,42 @@
+{
+  "bin_spec": {
+    "phi": {
+      "labels": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thresholds": [
+        0.156,
+        0.34450000000000003
+      ]
+    },
+    "T": {
+      "labels": [
+        "low",
+        "medium",
+        "high",
+        "very_high"
+      ],
+      "thresholds": [
+        0.575,
+        0.775,
+        0.975
+      ]
+    },
+    "logg": {
+      "labels": [
+        "very_low",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thresholds": [
+        -3.150515,
+        -2.150515,
+        -0.650515
+      ]
+    }
+  },
+  "rules": []
+}

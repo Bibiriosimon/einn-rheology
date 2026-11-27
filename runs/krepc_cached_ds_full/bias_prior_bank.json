@@ -1,0 +1,123 @@
+{
+  "bin_spec": {
+    "phi": {
+      "labels": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thresholds": [
+        0.156,
+        0.34450000000000003
+      ]
+    },
+    "T": {
+      "labels": [
+        "low",
+        "medium",
+        "high",
+        "very_high"
+      ],
+      "thresholds": [
+        0.575,
+        0.775,
+        0.975
+      ]
+    },
+    "logg": {
+      "labels": [
+        "very_low",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thresholds": [
+        -3.150515,
+        -2.150515,
+        -0.650515
+      ]
+    }
+  },
+  "rules": [
+    {
+      "scope": "logg_bin",
+      "key": "low",
+      "n": 74,
+      "bias": 0.025181567236219025,
+      "mae": 0.07607447396488999,
+      "pos_frac": 0.8513513513513513,
+      "direction": "positive_correction",
+      "risk": "medium"
+    },
+    {
+      "scope": "phi_bin+T_bin",
+      "key": "medium|very_high",
+      "n": 8,
+      "bias": 0.054853461198738046,
+      "mae": 0.05605489118569179,
+      "pos_frac": 0.875,
+      "direction": "positive_correction",
+      "risk": "low"
+    },
+    {
+      "scope": "phi_bin+T_bin",
+      "key": "low|medium",
+      "n": 11,
+      "bias": 0.05477827585708816,
+      "mae": 0.05477827585708816,
+      "pos_frac": 1.0,
+      "direction": "positive_correction",
+      "risk": "low"
+    },
+    {
+      "scope": "phi_bin+T_bin",
+      "key": "high|high",
+      "n": 54,
+      "bias": 0.04374595078245035,
+      "mae": 0.050035892500444296,
+      "pos_frac": 0.8518518518518519,
+      "direction": "positive_correction",
+      "risk": "low"
+    },
+    {
+      "scope": "phi_bin+T_bin",
+      "key": "low|low",
+      "n": 26,
+      "bias": 0.010875177906434611,
+      "mae": 0.04825682882378128,
+      "pos_frac": 0.8076923076923077,
+      "direction": "positive_correction",
+      "risk": "low"
+    },
+    {
+      "scope": "logg_bin",
+      "key": "medium",
+      "n": 142,
+      "bias": 0.031056881810515496,
+      "mae": 0.04543877774349807,
+      "pos_frac": 0.7816901408450704,
+      "direction": "positive_correction",
+      "risk": "low"
+    },
+    {
+      "scope": "phi_bin",
+      "key": "low",
+      "n": 52,
+      "bias": 0.02418441440536983,
+      "mae": 0.04388437706902033,
+      "pos_frac": 0.8846153846153846,
+      "direction": "positive_correction",
+      "risk": "low"
+    },
+    {
+      "scope": "T_bin",
+      "key": "high",
+      "n": 86,
+      "bias": 0.03772723733375604,
+      "mae": 0.04373037201124279,
+      "pos_frac": 0.8023255813953488,
+      "direction": "positive_correction",
+      "risk": "low"
+    }
+  ]
+}

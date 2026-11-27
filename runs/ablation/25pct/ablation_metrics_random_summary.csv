@@ -1,0 +1,2 @@
+train_fraction,variant,R2,RMSE,MAE,Acc05,Acc10,Acc20,N,physical_violation_shear,physical_violation_temperature,physical_violation_phi
+0.25,random_summary,0.9115952920681233,0.3025426965103724,0.2173974973661132,0.2682926829268293,0.3170731707317073,0.6341463414634146,41,0.008620689655172414,0.0,1.0
