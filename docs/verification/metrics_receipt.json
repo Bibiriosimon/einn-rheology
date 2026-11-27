@@ -2,6 +2,11 @@
   "archival_integrity_files": 227,
   "dataset": {
     "condition_groups": 105,
+    "row_aligned_sources": [
+      "training workbook",
+      "numeric CSV",
+      "supporting workbook"
+    ],
     "rows": 406,
     "unique_coordinates": 406
   },

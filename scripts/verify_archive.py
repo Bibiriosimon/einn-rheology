@@ -45,6 +45,17 @@ def main():
     condition_groups = {(phi, temp) for phi, temp, _ in coords}
     if (len(data), len(coords), len(condition_groups)) != (406, 406, 105):
         raise ValueError("Unexpected dataset")
+    columns = ("phi", "logg", "T", "log_eta")
+    truth = [tuple(float(row[k]) for k in columns) for row in data]
+    csv_data = read_csv(ROOT / "data/new_MDdata_406_records.csv")
+    numeric_csv = [tuple(float(row[k]) for k in columns) for row in csv_data]
+    source_book = load_workbook(ROOT / "data/new_MDdata.xlsx", read_only=True, data_only=True)
+    source_rows = iter(source_book["Sheet1"].values)
+    next(source_rows)
+    numeric_xlsx = [tuple(float(v) for v in row) for row in source_rows]
+    source_book.close()
+    if truth != numeric_csv or truth != numeric_xlsx:
+        raise ValueError("Training workbook, CSV and submission labels disagree in row order or values")
     table1 = {(r["TrainFracLabel"], r["Model"]): r["MAE"]
               for r in sheet_rows(book, "Table1_OOD_Benchmark_Summary")}
     table4 = {(float(r["train_fraction"]), r["variant"]): r["MAE"]
@@ -88,7 +99,8 @@ def main():
 
     print(json.dumps({
         "archival_integrity_files": len(source_manifest),
-        "dataset": {"rows": len(data), "unique_coordinates": len(coords), "condition_groups": len(condition_groups)},
+        "dataset": {"rows": len(data), "unique_coordinates": len(coords), "condition_groups": len(condition_groups),
+                    "row_aligned_sources": ["training workbook", "numeric CSV", "supporting workbook"]},
         "table_1_mae_recomputed_from_ood_predictions": compare_values(table1, table1_recomputed),
         "table_4_mae_matched_to_archived_summary": compare_values(table4, table4_archived),
         "figure_1_predicted_points": compare_values(figure1, figure1_archived),
