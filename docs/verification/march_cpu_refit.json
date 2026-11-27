@@ -1,0 +1,42 @@
+{
+  "completed_fractions": {
+    "25pct": {
+      "LLM-TransRheo": {
+        "held_out_rows": 41,
+        "archived_mae": 0.20298027506047822,
+        "fresh_mae": 0.21664017620649714,
+        "max_abs_prediction_difference": 0.5196432769298553
+      },
+      "LR": {
+        "held_out_rows": 41,
+        "archived_mae": 0.40766241459453223,
+        "fresh_mae": 0.40766241459453223,
+        "max_abs_prediction_difference": 8.881784197001252e-16
+      },
+      "RF": {
+        "held_out_rows": 41,
+        "archived_mae": 0.25861634289301905,
+        "fresh_mae": 0.2584699055442728,
+        "max_abs_prediction_difference": 0.006400699999998594
+      },
+      "SVR": {
+        "held_out_rows": 41,
+        "archived_mae": 0.311782289962739,
+        "fresh_mae": 0.31163612344313374,
+        "max_abs_prediction_difference": 0.001844053898508058
+      },
+      "TransRheo": {
+        "held_out_rows": 41,
+        "archived_mae": 0.23930413877160978,
+        "fresh_mae": 0.2321157625556245,
+        "max_abs_prediction_difference": 0.6992957592010498
+      },
+      "XGBoost": {
+        "held_out_rows": 41,
+        "archived_mae": 0.28605662598265497,
+        "fresh_mae": 0.28605662598265497,
+        "max_abs_prediction_difference": 0.0
+      }
+    }
+  }
+}

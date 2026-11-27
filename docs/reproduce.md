@@ -84,3 +84,5 @@ python scripts/refit_evidence.py --run krepc_cached_det_full --knowledge example
 ```
 
 For a historical refit, change the knowledge directory to the original authorized local index and use the desired full training budget. The Flash and Pro variants additionally accept their respective authorized `--cache` files. Cache misses use the deterministic fallback, and this replay entry point cannot call the provider.
+
+Use `python scripts/compare_refit.py reproduction-output/table1` to compare completed fresh fits with the original predictions on identical held-out rows. The [execution test record](verification/refit_execution_tests.json) reports the shorter end-to-end training checks separately. The [CPU refit record](verification/march_cpu_refit.json) lists the fractions run with the historical default training budget and their deviation from the original runs.

@@ -1,0 +1,38 @@
+{
+  "record_type": "execution tests; reduced training budgets",
+  "readable_train": {
+    "fractions": [
+      "25pct"
+    ],
+    "base_epochs": [
+      1,
+      1,
+      1
+    ],
+    "tail_epochs": 1,
+    "prior_epochs": 1,
+    "model_count": 6,
+    "all_held_out_counts": [
+      41
+    ],
+    "pretrained_assets": "scibert-initializer.zip",
+    "dataset": "published 406-row table"
+  },
+  "ablation_full_einn": {
+    "fraction": 0.25,
+    "correction_epochs": 1,
+    "held_out": 41,
+    "base": "original Table 4 numerical output",
+    "knowledge": "original local licensed archive",
+    "mae": 0.20162767752070135
+  },
+  "deterministic_evidence": {
+    "fraction": 1.0,
+    "correction_epochs": 1,
+    "held_out": 41,
+    "mae": 0.06434560168267242,
+    "base": "original Table 1 numerical output",
+    "knowledge": "original local licensed archive",
+    "external_llm_calls": 0
+  }
+}
