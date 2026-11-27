@@ -1,0 +1,20 @@
+[
+  {
+    "run": "krepc_cached_det_full",
+    "rows": 406,
+    "base_max_abs_difference": 1.9073486323684108e-06,
+    "combined_max_abs_difference": 1.7583370204299342e-06
+  },
+  {
+    "run": "krepc_cached_ds_flash_full",
+    "rows": 406,
+    "base_max_abs_difference": 1.9073486323684108e-06,
+    "combined_max_abs_difference": 1.4975666995376002e-06
+  },
+  {
+    "run": "krepc_cached_ds_full",
+    "rows": 406,
+    "base_max_abs_difference": 1.9073486323684108e-06,
+    "combined_max_abs_difference": 1.8179416652053249e-06
+  }
+]

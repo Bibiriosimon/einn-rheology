@@ -16,7 +16,7 @@ The commands recompute Table 1 from the archived test predictions, check Table 4
 
 ## Weights and training
 
-The files in [Releases](../../releases) contain the original inference tensors and SciBERT initializer. Each ZIP has an accompanying SHA-256. Start with the [run instructions](docs/reproduce.md) for checkpoint replay, retraining the March benchmark, or reproducing the evidence-based experiments.
+The files in [Releases](https://github.com/Bibiriosimon/einn-rheology/releases/tag/v1.0.0) contain the original inference tensors and SciBERT initializer. Each ZIP has an accompanying SHA-256. Start with the [run instructions](docs/reproduce.md) for checkpoint replay, retraining the March benchmark, or reproducing the evidence-based experiments.
 
 | Location | Contents |
 |---|---|

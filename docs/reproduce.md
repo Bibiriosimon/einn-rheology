@@ -2,7 +2,7 @@
 
 ## Model files
 
-Use the assets linked from [Releases](../../../releases). Verify the accompanying SHA-256 files before unpacking. The examples below assume the following directories outside the Git checkout.
+Use the assets linked from [the weight release](https://github.com/Bibiriosimon/einn-rheology/releases/tag/v1.0.0). Verify the accompanying SHA-256 files before unpacking. The examples below assume the following directories outside the Git checkout.
 
 - `assets/table1` contains `benchmark-3.11/` and the original SciBERT vocabulary and configuration.
 - `assets/scibert` contains the original pretrained `model.safetensors`, configuration and vocabulary used to initialize a new model.
@@ -27,7 +27,7 @@ python scripts/train.py --data-path data/new_MDdata.xlsx \
   --scibert-dir assets/scibert --out-root reproduction-output/table1
 ```
 
-The same benchmark can use the recovered March bytecode by replacing `scripts/train.py` with `scripts/train_march.py`. The loader verifies the preserved module hashes before execution. The readable version reuses the matching original functions and restores the March-specific template training and result aggregation. A comparison at 25% over one training epoch found exact agreement on the prediction CSVs, training loss and 211 saved tensors. The two paths retain the archived snapshot behavior, which may differ across CPU and CUDA. The 15% study inputs and metrics are in `runs/benchmark_sparsefractions_run/15pct`. To recreate the single 15% split, pass `--fractions 0.15`. The four main fractions must be supplied together in their original order to regenerate the published partitions.
+The same benchmark can use the recovered March bytecode by replacing `scripts/train.py` with `scripts/train_march.py`. The loader verifies the preserved module hashes before execution. The readable version reuses the matching original functions and restores the March-specific template training and result aggregation. A comparison at 25% over one training epoch found exact agreement on the prediction CSVs, training loss and 211 saved tensors. The two paths retain the archived snapshot behavior, which may differ across CPU and CUDA. The 15% study inputs and metrics are in `runs/benchmark_sparsefractions_run/15pct`. The 15% fraction was the third entry in a separate run. Use `--fractions 0.05,0.10,0.15` to regenerate that sequence. Pass the four main fractions in their original order for Table 1. `python scripts/verify_splits.py` checks all seven partitions against the archived record IDs.
 
 ## Retrieval and summary correction
 

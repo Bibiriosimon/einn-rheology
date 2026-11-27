@@ -1,0 +1,37 @@
+{
+  "benchmark/25pct": {
+    "TRAIN": 336,
+    "VAL": 40,
+    "OOD": 164
+  },
+  "benchmark/50pct": {
+    "TRAIN": 612,
+    "VAL": 120,
+    "OOD": 164
+  },
+  "benchmark/75pct": {
+    "TRAIN": 1032,
+    "VAL": 96,
+    "OOD": 164
+  },
+  "benchmark/100pct": {
+    "TRAIN": 1300,
+    "VAL": 160,
+    "OOD": 164
+  },
+  "benchmark_sparsefractions_run/5pct": {
+    "TRAIN": 64,
+    "VAL": 36,
+    "OOD": 164
+  },
+  "benchmark_sparsefractions_run/10pct": {
+    "TRAIN": 152,
+    "VAL": 20,
+    "OOD": 164
+  },
+  "benchmark_sparsefractions_run/15pct": {
+    "TRAIN": 224,
+    "VAL": 12,
+    "OOD": 164
+  }
+}
