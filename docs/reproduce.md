@@ -27,7 +27,9 @@ python scripts/train.py --data-path data/new_MDdata.xlsx \
   --scibert-dir assets/scibert --out-root reproduction-output/table1
 ```
 
-The same benchmark can use the recovered March bytecode by replacing `scripts/train.py` with `scripts/train_march.py`. The loader verifies the preserved module hashes before execution. The readable version reuses the matching original functions and restores the March-specific template training and result aggregation. A comparison at 25% over one training epoch found exact agreement on the prediction CSVs, training loss and 211 saved tensors. The two paths retain the archived snapshot behavior, which may differ across CPU and CUDA. The 15% study inputs and metrics are in `runs/benchmark_sparsefractions_run/15pct`. The 15% fraction was the third entry in a separate run. Use `--fractions 0.05,0.10,0.15` to regenerate that sequence. Pass the four main fractions in their original order for Table 1. `python scripts/verify_splits.py` checks all seven partitions against the archived record IDs.
+To run the archived March benchmark under CPython 3.12, replace `scripts/train.py` with `scripts/train_march.py`. The loader checks the module hashes. In a one-epoch comparison at the 25% fraction, the source and bytecode entry points produced identical predictions, training loss and 211 saved tensors.
+
+The 15% fraction was the third entry in the sparse-data run. Its inputs and metrics are in `runs/benchmark_sparsefractions_run/15pct`. Use `--fractions 0.05,0.10,0.15` to repeat the sequence. The order for Table 1 is 25%, 50%, 75%, 100%. Run `python scripts/verify_splits.py` to check all seven partitions against their record IDs.
 
 ## Retrieval and summary correction
 
@@ -72,7 +74,7 @@ The [ablation prediction audit](verification/ablation_prediction_audit.json) ide
 
 ## Molecular simulation
 
-The [NEMD record](../nemd/README.md) describes the published model parameters that could be recovered, the exact assumptions in the separate six-condition reconstruction and the available input decks. The archive cannot regenerate the original 406 supplied labels directly from raw trajectories.
+Model training and evaluation take the processed 406-row viscosity table as input. The [NEMD instructions](../nemd/README.md) show how to run the separate six-condition LAMMPS study and compute its viscosities from the included stress series.
 
 ## Testing with the example knowledge base
 

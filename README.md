@@ -12,11 +12,13 @@ python scripts/verify_archive.py
 python scripts/render_figures.py reproduction-output
 ```
 
-The commands recompute Table 1 from the archived test predictions, check Table 4 against its recorded metrics, and draw Figures 1–6 and 8. Figures 7 and 9 are supplied as artwork. The [406 viscosity observations](data/new_MDdata_406_records.csv), [supporting workbook](data/Supplementary_Data.xlsx), and the [fixed partitions and predictions](runs/benchmark) are included.
+The first script recomputes Table 1 from the test predictions and checks Table 4 against the recorded metrics. The second draws Figures 1–6 and 8 from their source data. Figures 7 and 9 are supplied as artwork.
+
+The modeling inputs are [406 processed reduced-viscosity values](data/new_MDdata_406_records.csv). See the [supporting workbook](data/Supplementary_Data.xlsx) and [benchmark partitions and predictions](runs/benchmark) for the data used in the paper.
 
 ## Weights and training
 
-The files in [Releases](https://github.com/Bibiriosimon/einn-rheology/releases/tag/v1.0.0) contain the original inference tensors and SciBERT initializer. Each ZIP has an accompanying SHA-256. Start with the [run instructions](docs/reproduce.md) for checkpoint replay, retraining the March benchmark, or reproducing the evidence-based experiments.
+The [weight release](https://github.com/Bibiriosimon/einn-rheology/releases/tag/v1.0.0) contains the trained checkpoints and the SciBERT initializer. Each ZIP has a SHA-256 checksum. The [run instructions](docs/reproduce.md) cover replaying the reported predictions, fitting the models and running the text correction.
 
 | Location | Contents |
 |---|---|
@@ -26,4 +28,4 @@ The files in [Releases](https://github.com/Bibiriosimon/einn-rheology/releases/t
 | [nemd](nemd) | LAMMPS inputs and stress data for the six-condition reconstruction |
 | [docs/verification](docs/verification) | Recorded checks and reproduction results |
 
-The 406 training labels are processed viscosity values. See the [simulation record](nemd/README.md) for available parameters and the limits of tracing the historical labels to individual trajectories. See the [notice](NOTICE.md) for software, data and third-party assets.
+The [simulation notes](nemd/README.md) describe the six LAMMPS cases and their relationship to the modeling table. Software and third-party assets are described in the [license notice](NOTICE.md).
